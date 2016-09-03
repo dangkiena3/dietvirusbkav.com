@@ -1,0 +1,156 @@
+/**
+ * Webhomeschool admin.css
+ *
+ * @package         ABlog
+ * @version         2.5.6
+ *
+ * @author         Christoph Wardzinski <info@webhomeschool.de>
+ * @link            http://www.webhomeschool.de
+ * @copyright       Copyright © 2013 Webhomeschool All Rights Reserved
+ * @license         http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+.page-title .icon-blog-48{
+    background: url('../images/blog-48.png')no-repeat;
+    width: 134px;
+    height: 39px;
+}
+
+.cpanel{
+    float: left;
+}
+
+#cpanel .cpanel div.icon{
+    padding: 10px;
+}
+
+div#info_ablog{
+    border: 1px solid #ccc;
+    width: 500px;
+    margin-left: 700px;
+    padding: 20px;
+    float: left;
+}
+
+#status_bar{
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.adminform h3 {
+    font-size: 1.2em;
+    margin-bottom:0;
+    padding-bottom: 0px;
+}
+
+.infobox img {
+    padding-top: 20px;
+}
+
+.adminform h2 {
+    font-size: 1.6em;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.adminform ul {
+    margin: 0;
+    padding: 0;
+}
+
+.adminform ul li{
+    margin-left: 30px;
+    list-style:disc;
+}
+
+.infobox {
+    margin-bottom: 10px;
+}
+
+.infobox h2{
+    font-size: 2.4em;
+}
+
+.icon-16-cpanel {
+	background: url('../images/cpanel/icon-16-ablog-cpanel.ico');
+}
+
+#boxes{
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding_right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.current{
+    border-radius: 5px;
+}
+
+td dl.tabs{
+    border-radius: 5px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.infobox h3 {
+    font-size: 1.4em;
+    margin-bottom: 2px;
+}
+
+.infobox li {
+    font-size: 1.2em;
+}
+
+.info_status{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.untrash_item{
+    background: url('../images/icon-16-untrash.png') no-repeat;
+}
+
+.untrash_item span{
+    visibility: hidden;
+}
+
+table div.toggle-editor{
+    margin: 0;
+}
+
+div div#content{
+    border: 0;
+}
+
+#jform_ablog_backend_ordering_ablog_categories{
+    display: none;
+}
+
+#posts_title_creator{
+    text-align: left;
+}
+
+#comments_title_content{
+    text-align: left;
+}
+
+.comments_post_id{
+    text-align: center;
+}
+
+.numbers,.checks,.published{
+    width: 1%;
+}
+
+.content{
+    width: 30%;
+}
+
+.tab-content {
+overflow: visible !important;
+}

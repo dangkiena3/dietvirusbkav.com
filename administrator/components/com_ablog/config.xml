@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset name="component_menu"
+              label="COM_ABLOG_MENU_CONFIGURATION"
+              description="COM_ABLOG_MENU_CONFIGURATION_OPTIONS">         
+        <field
+            name="ablog_menu_color"
+            type="text"
+            label="COM_ABLOG_MENU_COLOR"
+            description="COM_ABLOG_MENU_COLOR_DESCRIPTION" />
+        <field
+            name="ablog_menu_text_color"
+            type="text"
+            label="COM_ABLOG_MENU_TEXT_COLOR"
+            description="COM_ABLOG_MENU_TEXT_COLOR_DESCRIPTION" />
+        <field
+            name="ablog_menu_image_width"
+            type="text"
+            default="32px"
+            label="COM_ABLOG_MENU_IMAGE_WIDTH"
+            description="COM_ABLOG_MENU_IMAGE_WIDTH_DESCRIPTION" />
+        <field
+            name="ablog_menu_text_weight"
+            type="radio"
+            label="COM_ABLOG_MENU_TEXT_WEIGHT"
+            description="COM_ABLOG_MENU_TEXT_WEIGHT_DESCRIPTION">
+            <option value="0">JNO</option>
+            <option value="1">JYES</option>
+        </field>
+        <field
+            name="ablog_menu_fontsize"
+            type="text"
+            label="COM_ABLOG_MENU_FONT_SIZE"
+            description="COM_ABLOG_MENU_FONT_SIZE_DESCRIPTION" />
+        <field
+            name="ablog_menu_height"
+            type="text"
+            default="32px"
+            label="COM_ABLOG_MENU_HEIGHT"            
+            description="COM_ABLOG_MENU_HEIGHT_DESCRIPTION" />              
+        <field
+            name="ablog_menu_image"
+            type="media"
+            label="COM_ABLOG_IMAGE_FOR_MENU"
+            description="COM_ABLOG_IMAGE_FOR_MENU_DESCRIPTION" /> 
+    </fieldset>
+    <!--Backend-->
+    <!--total_categories-->
+    <!--limit_categories-->
+  
+    <fieldset name="component_backend"
+              label="COM_ABLOG_BACKEND_CONFIGURATION"
+              description="COM_ABLOG_BACKEND_CONFIGURATION_DESCRIPTION">              
+        
+        <field name="spacer_backend" type="spacer" class="spacer"
+               label="COM_ABLOG_OPTIONS_BELOW_FOR_ORDERING"
+        />
+         
+       
+        
+        <field
+            name="ablog_backend_ordering_comment_answers"
+            type="radio"
+            class="btn-group"
+            label="COM_ABLOG_ORDERING_COMMENT_ANSWERS"
+            description="COM_ABLOG_ORDERING_COMMENT_ANSWERS_DESCRIPTION"
+            labelclass="control-label">
+            <option value="0">COM_ABLOG_ASCENT</option>
+            <option value="1">COM_ABLOG_DESCENT</option>
+        </field>
+        
+        <field
+            name="ablog_backend_ordering_comments"
+            type="radio"
+            class="btn-group"
+            label="COM_ABLOG_ORDERING_COMMENTS"
+            description="COM_ABLOG_ORDER_COMMENTS"
+            labelclass="control-label">
+            <option value="0">COM_ABLOG_ASCENT</option>
+            <option value="1">COM_ABLOG_DESCENT</option>
+        </field>
+        
+        <field
+            name="ablog_backend_ordering_blog_categories"
+            type="radio"
+            class="btn-group"
+            label="COM_ABLOG_ORDER_CATEGORIES"
+            description="COM_ABLOG_ORDER_CATEGORIES_DESCRIPTION"
+            labelclass="control-label">
+            <option value="0">COM_ABLOG_ASCENT</option>
+            <option value="1">COM_ABLOG_DESCENT</option>
+        </field>
+        
+        <field
+            name="ablog_backend_ordering_posts"
+            type="radio"
+            class="btn-group"
+            label="COM_ABLOG_ORDER_POSTS"
+            description="COM_ABLOG_ORDER_POSTS_DESCRIPTION"
+            labelclass="control-label">
+            <option value="0">COM_ABLOG_ASCENT</option>
+            <option value="1">COM_ABLOG_DESCENT</option>
+        </field>
+          
+    </fieldset>   
+    <!--Posts-->
+    <fieldset name="component_content"
+              label="COM_ABLOG_FRONTEND_CONFIGURATION"
+              description="COM_ABLOG_FRONTEND_CONFIGURATION_DESCRIPTION">
+        <field
+            name="ablog_frontend_posts_limit"
+            type="text"
+            label="COM_ABLOG_FRONTEND_POSTS_LIMIT"
+            default="3"
+            description="COM_ABLOG_FRONTEND_POSTS_LIMIT_DESCRIPTION" />
+         <field
+            name="ablog_frontend_comments_limit"
+            type="text"
+            label="COM_ABLOG_FRONTEND_COMMENTS_LIMIT"
+            description="COM_ABLOG_FRONTEND_COMMENTS_LIMIT_DESCRIPTION" />
+         <field
+            name="ablog_frontend_comment_answers_limit"
+            type="text"
+            label="COM_ABLOG_FRONTEND_COMMENT_ANSWERS_LIMIT"
+            description="COM_ABLOG_FRONTEND_COMMENT_ANSWERS_LIMIT_DESCRIPTION" />                     
+        <field
+            name="ablog_text_color"
+            type="text"
+            label="COM_ABLOG_POSTS_TEXT_COLOR"
+            description="COM_ABLOG_POSTS_TEXT_COLOR_DESCRIPTION" />
+        <field
+            name="ablog_posts_border_weight"
+            type="text"
+            label="COM_ABLOG_POSTS_BORDER_WEIGHT"
+            description="define the border weight like 'bold' or '200'" />
+        <field
+            name="ablog_posts_border_style"
+            type="text"
+            label="COM_ABLOG_POSTS_BORDER_STYLE"
+            description="COM_ABLOG_POSTS_BORDER_STYLE_DESCRIPTION" />
+        <field
+            name="ablog_posts_border_color"
+            type="text"
+            label="COM_ABLOG_POSTS_BORDER_COLOR"
+            description="COM_ABLOG_POSTS_BORDER_COLOR_DESCRIPTION" />
+        <field
+            name="ablog_posts_background"
+            type="text"
+            label="COM_ABLOG_POSTS_BACKGROUND"
+            description="COM_ABLOG_POSTS_BACKGROUND_DESCRIPTION" />
+        <field
+            name="ablog_posts_padding"
+            type="text"
+            label="COM_ABLOG_POSTS_PADDING"
+            description="COM_ABLOG_POSTS_PADDING_DESCRIPTION" />
+        <field
+            name="ablog_posts_border_radius"
+            type="text"
+            label="COM_ABLOG_POSTS_BORDER_RADIUS"
+            description="COM_ABLOG_POSTS_BORDER_RADIUS_DESCRIPTION" />
+        <field
+            name="ablog_posts_width"
+            type="text"
+            label="COM_ABLOG_POSTS_WIDTH"
+            description="COM_ABLOG_POSTS_WIDTH_DESCRIPTION" />            
+        <field
+            name="ablog_h2_color_link"
+            type="text"
+            label="COM_ABLOG_POSTS_H2_LINK_COLOR"
+            description="COM_ABLOG_POSTS_H2_LINK_COLOR_DESCRIPTION" />
+        <field
+            name="ablog_h2_color_hover"
+            type="text"
+            label="COM_ABLOG_POSTS_H2_HOVER_COLOR"
+            description="COM_ABLOG_POSTS_H2_HOVER_COLOR_DESCRIPTION" />                 
+        <field
+            name="ablog_h2_hover_background_color"
+            type="text"
+            label="COM_ABLOG_POSTS_H2_HOVER_BACKGROUND_COLOR"
+            description="COM_ABLOG_POSTS_H2_HOVER_BACKGROUND_COLOR_DESCRIPTION" />             
+        <field
+            name="spacer1"
+            type="spacer"
+            hr="true"
+        />
+        <field name="post_frontend" type="spacer" class="spacer"
+               label="COM_ABLOG_OPTIONS_FOR_SINGLE_POST"
+        />
+        <!--Start Post Frontend configuration -->               
+        <field
+            name="ablog_post_title_color"
+            type="text"
+            label="COM_ABLOG_CHANGE_THE_COLOR"
+            description="COM_ABLOG_CHANGE_THE_COLOR_DESCRIPTION" />
+        <field
+            name="ablog_post_title_size"
+            type="text"
+            label="COM_ABLOG_CHANGE_THE_TITLE_SIZE"
+            description="COM_ABLOG_CHANGE_THE_TITLE_SIZE_DESCRIPTION" />
+        <field
+            name="ablog_post_text_color"
+            type="text"
+            label="COM_ABLOG_CHANGE_THE_TEXT_COLOR"
+            description="COM_ABLOG_CHANGE_THE_TEXT_COLOR_DESCRIPTION " />
+        <field
+            name="ablog_post_text_size"
+            type="text"
+            label="COM_ABLOG_CHANGE_THE_TEXT"
+            description="COM_ABLOG_CHANGE_THE_TEXT_DESCRIPTION" />
+        <field
+            name="ablog_post_text_weight"
+            type="text"
+            label="COM_ABLOG_CHANGE_THE_TEXT_WEIGHT"
+            description="COM_ABLOG_CHANGE_THE_TEXT_WEIGHT_DESCRIPTION" />
+        <field
+            name="ablog_post_comment_text_color"
+            type="text"
+            label="COM_ABLOG_CHANGE_THE_COMMENT_TEXT_COLOR"
+            description="COM_ABLOG_CHANGE_THE_COMMENT_TEXT_COLOR_DESCRIPTION" />
+        <field
+            name="ablog_post_comment_text_size"
+            type="text"
+            label="COM_ABLOG_CHANGE_COMMENT_TEXT_SIZE"
+            description="COM_ABLOG_CHANGE_COMMENT_TEXT_SIZE_DESCRIPTION" />
+        <field
+            name="ablog_post_comment_line_color"
+            type="text"
+            label="COM_ABLOG_CHANGE_THE_COMMENT_LINE_COLOR"
+            description="COM_ABLOG_CHANGE_THE_COMMENT_LINE_COLOR_DESCRIPTION" />                        
+        <field
+            name="spacer2"
+            type="spacer"
+            hr="true"
+        />
+          <field
+            name="ablog_post_button_background_color"
+            type="text"
+            label="COM_ABLOG_POST_BUTTON_BACKGROUND_COLOR"
+            description="COM_ABLOG_POST_BUTTON_BACKGROUND_COLOR_DESCRIPTION" />
+        <field
+            name="ablog_post_button_font_size"
+            type="text"
+            label="COM_ABLOG_POST_BUTTON_FONT_SIZE"
+            description="COM_ABLOG_POST_BUTTON_FONT_SIZE_DESCRIPTION" />
+        <field
+            name="ablog_post_button_color"
+            type="text"
+            label="COM_ABLOG_CHANGE_THE_POST_BUTTON_COLOR"
+            description="dCOM_ABLOG_CHANGE_THE_POST_BUTTON_COLOR_DESCRIPTION" />
+        <!--Post Form-->
+        <field
+            name="ablog_form_background"
+            type="text"
+            label="COM_ABLOG_CHANGE_THE_FORM_BACKGROUND_COLOR"
+            description="COM_ABLOG_CHANGE_THE_FORM_BACKGROUND_COLOR_DESCRIPTION" />
+        <field
+            name="ablog_form_message1_color"
+            type="text"
+            label="COM_ABLOG_CHANGE_MESSAGE1_COLOR"
+            description="COM_ABLOG_CHANGE_MESSAGE1_COLOR_DESCRIPTION" />
+        <field
+            name="ablog_form_message1_font_size"
+            type="text"
+            label="COM_ABLOG_CHANGE_MESSAGE1_FONT_SIZE"
+            description="COM_ABLOG_CHANGE_MESSAGE1_FONT_SIZE_DESCRIPTION" />
+        <field
+            name="ablog_form_message2_color"
+            type="text"
+            label="COM_ABLOG_FORM_MESSAGE2_COLOR"
+            description="COM_ABLOG_FORM_MESSAGE2_DESCRIPTION" />
+        <field
+            name="ablog_form_message2_font_size"
+            type="text"
+            label="COM_ABLOG_FORM_MESSAGE2_FONT_SIZE"
+            description="COM_ABLOG_FORM_MESSAGE2_FONT_SIZE_DESCRIPTION" />
+        <field
+            name="ablog_form_color_label"
+            type="text"
+            label="COM_ABLOG_LABEL_COLOR"
+            description="dCOM_ABLOG_LABEL_COLOR_DESCRIPTION" />
+        <field
+            name="ablog_form_font_size_label"
+            type="text"
+            label="COM_ABLOG_LABEL_FONT_SIZE"
+            description="COM_ABLOG_LABEL_FONT_SIZE_DESCRIPTION" />
+        <field
+            name="ablog_form_input_focus"
+            type="text"
+            label="COM_ABLOG_INPUT_FOCUS_COLOR"
+            description="COM_ABLOG_INPUT_FOCUS_COLOR_DESCRIPTION" />
+        <field
+            name="ablog_form_button_color"
+            type="text"
+            label="COM_ABLOG_BUTTON_TEXT_COLOR"
+            description="COM_ABLOG_BUTTON_TEXT_COLOR_DESCRIPTION" />
+        <field
+            name="ablog_form_button_background_color"
+            type="text"
+            label="COM_ABLOG_FORM_BUTTON_BACKGROUND_COLOR"
+            description="COM_ABLOG_FORM_BUTTON_BACKGROUND_COLOR_DESCRIPTION" />
+        <field
+            name="ablog_form_button_font_size"
+            type="text"
+            label="COM_ABLOG_FORM_BUTTON_FONT_SIZE"
+            description="COM_ABLOG_FORM_BUTTON_FONT_SIZE_DESCRIPTION" />
+        <field
+            name="spacer3"
+            type="spacer"
+            hr="true"
+        />
+        <field name="publish" type="spacer" class="spacer"
+               label="COM_ABLOG_OPTIONS_FOR_PUBLISHING" />
+        <field 
+            name="publishing_comments" 
+            type="checkbox"
+            label="COM_ABLOG_PUBLISH_COMMENTS_IMMEDIATELY"
+            value="1"
+        />
+    </fieldset>
+
+    <fieldset  name="permissions"  label="JCONFIG_PERMISSIONS_LABEL"  description="JCONFIG_PERMISSIONS_DESC">
+        <field name="rules" type="rules" label="JCONFIG_PERMISSIONS_LABEL" class="inputbox" validate="rules" filter="rules" component="com_ablog" section="component"  />
+    </fieldset>
+</config>

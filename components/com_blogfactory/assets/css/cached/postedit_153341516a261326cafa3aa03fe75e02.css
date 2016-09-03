@@ -1,0 +1,453 @@
+/* components/com_blogfactory/assets/css/main.css */
+h1 a.btn {
+  font-weight: normal;
+}
+
+a [class^="factory-icon-"] {
+  margin-right: 5px;
+}
+
+.blogfactory-edit-box {
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.blogfactory-edit-box-header {
+  background: #eeeeee linear-gradient(to bottom, #eeeeee, #dddddd);
+  color: #000000;
+  font-weight: bold;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid #cccccc;
+  text-shadow: 0 1px 0 #FFFFFF;
+  padding: 7px 15px;
+}
+
+.blogfactory-edit-box-content {
+  background-color: #fafafa;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #444444;
+}
+
+.padded {
+  padding: 15px;
+}
+
+img.blogfactory-avatar {
+  background-color: #DDDDDD;
+  border-radius: 5px 5px 5px 5px;
+}
+
+/* components/com_blogfactory/assets/css/icons.css */
+[class^="factory-icon-"] {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  vertical-align: top;
+}
+
+.factory-icon-thumb-up { background-image: url('../../images/icons/thumb-up.png'); }
+.factory-icon-thumb-down { background-image: url('../../images/icons/thumb.png'); }
+.factory-icon-loader { background-image: url('../../images/icons/loader.gif'); }
+.factory-icon-clock { background-image: url('../../images/icons/clock.png'); }
+.factory-icon-document-text { background-image: url('../../images/icons/document-text.png'); }
+.factory-icon-document-text-plus { background-image: url('../../images/icons/document-text-plus.png'); }
+.factory-icon-dashboard-cog { background-image: url('../../images/icons/dashboard-cog.png'); }
+.factory-icon-bookmark { background-image: url('../../images/icons/bookmark.png'); }
+.factory-icon-feed { background-image: url('../../images/icons/feed.png'); }
+.factory-icon-users { background-image: url('../../images/icons/users.png'); }
+.factory-icon-images { background-image: url('../../images/icons/images.png'); }
+.factory-icon-monitor { background-image: url('../../images/icons/monitor.png'); }
+.factory-icon-monitor-window { background-image: url('../../images/icons/monitor-window.png'); }
+.factory-icon-gear { background-image: url('../../images/icons/gear.png'); }
+.factory-icon-chevron { background-image: url('../../images/icons/chevron.png'); }
+.factory-icon-chevron-expand { background-image: url('../../images/icons/chevron-expand.png'); }
+.factory-icon-balloon { background-image: url('../../images/icons/balloon.png'); }
+.factory-icon-balloons { background-image: url('../../images/icons/balloons.png'); }
+.factory-icon-balloon-small { background-image: url('../../images/icons/balloon-small.png'); }
+.factory-icon-ui-check-box-mix { background-image: url('../../images/icons/ui-check-box-mix.png'); }
+.factory-icon-order-desc { background-image: url('../../images/icons/control-270-small.png'); }
+.factory-icon-order-asc { background-image: url('../../images/icons/control-090-small.png'); }
+.factory-icon-funnel-minus { background-image: url('../../images/icons/funnel--minus.png'); }
+.factory-icon-calendar-month { background-image: url('../../images/icons/calendar-month.png'); }
+.factory-icon-dashboard { background-image: url('../../images/icons/dashboard.png'); }
+.factory-icon-image-plus { background-image: url('../../images/icons/image--plus.png'); }
+.factory-icon-folder-plus { background-image: url('../../images/icons/folder--plus.png'); }
+.factory-icon-minus-circle { background-image: url('../../images/icons/minus-circle.png'); }
+.factory-icon-drive-upload { background-image: url('../../images/icons/drive-upload.png'); }
+.factory-icon-insert { background-image: url('../../images/icons/arrow-curve-000-left.png'); }
+.factory-icon-cross { background-image: url('../../images/icons/cross.png'); }
+.factory-icon-folder { background-image: url('../../images/icons/folder.png'); }
+.factory-icon-folder-open { background-image: url('../../images/icons/folder-open.png'); }
+.factory-icon-blue-folder { background-image: url('../../images/icons/blue-folder.png'); }
+.factory-icon-toggle-small { background-image: url('../../images/icons/toggle-small.png'); }
+.factory-icon-toggle-small-expand { background-image: url('../../images/icons/toggle-small-expand.png'); }
+.factory-icon-tag { background-image: url('../../images/icons/tag.png'); }
+.factory-icon-blog { background-image: url('../../images/icons/blog.png'); }
+.factory-icon-mail { background-image: url('../../images/icons/mail.png'); }
+.factory-icon-document-horizontal-text { background-image: url('../../images/icons/document-horizontal-text.png'); }
+
+a:focus, a.active {
+  outline: none !important;
+}
+
+/* components/com_blogfactory/assets/css/media.css */
+.blogfactory-media-manager-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 9999;
+  opacity: .75;
+}
+
+#blogfactory-media-manager .blogfactory-media-manager-overlay {
+  position: fixed;
+  background-color: #000000;
+  opacity: .7;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+#blogfactory-media-manager .blogfactory-media-pane {
+  position: fixed;
+  background-color: #ffffff;
+  top: 10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+  z-index: 1001;
+  border: 1px solid #000000;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#blogfactory-media-manager .blogfactory-media-pane.loading {
+  background-image: url('../../images/loader_large.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#blogfactory-media-manager .blogfactory-media-explorer .pane-folders,
+#blogfactory-media-manager .blogfactory-media-explorer .pane-files,
+#blogfactory-media-manager .blogfactory-media-explorer .pane-file-details,
+#blogfactory-media-manager .blogfactory-media-explorer .pane-upload {
+  position: absolute;
+  top: 40px;
+  overflow: auto;
+  bottom: 40px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#blogfactory-media-manager .blogfactory-media-explorer .pane-folders {
+  border-right: 1px solid #aaaaaa;
+  background-color: #f6f6f6;
+  left: 0;
+  width: 20%;
+  padding: 10px;
+}
+
+#blogfactory-media-manager .blogfactory-media-explorer .pane-files {
+  right: 20%;
+  width: 60%;
+}
+
+#blogfactory-media-manager .blogfactory-media-explorer .pane-files.extended {
+  right: 0;
+  width: 80%;
+}
+
+#blogfactory-media-manager .blogfactory-media-explorer .pane-upload {
+  left: 0;
+  width: 100%;
+}
+
+#blogfactory-media-manager .blogfactory-media-explorer .pane-file-details {
+  right: 0;
+  width: 20%;
+  border-left: 1px solid #aaaaaa;
+  background-color: #f6f6f6;
+  padding: 10px;
+}
+
+#blogfactory-media-manager .blogfactory-media-explorer .pane-buttons,
+#blogfactory-media-manager .blogfactory-media-explorer .pane-title,
+#blogfactory-media-manager .blogfactory-media-explorer .pane-status {
+  background: #eeeeee linear-gradient(to bottom, #eeeeee, #cccccc);
+  color: #333333;
+  height: 40px;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#blogfactory-media-manager .blogfactory-media-explorer .pane-buttons {
+  border-bottom: 1px solid #aaaaaa;
+}
+
+#blogfactory-media-manager .blogfactory-media-explorer .pane-status {
+  border-top: 1px solid #aaaaaa;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.pane-folders ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pane-folders li > ul {
+  padding-left: 15px;
+}
+
+.pane-folders li a,
+.pane-folders li a:hover {
+  padding: 4px;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 100px;
+}
+
+.blogfactory-media-explorer .active {
+  /*background: #666666 linear-gradient(#999999, #666666) repeat-x;*/
+  background: #666666 linear-gradient(#3875d7, #2a62bc) repeat-x;
+  color: white;
+  border-radius: 4px;
+}
+
+.blogfactory-media-explorer a.active,
+.blogfactory-media-explorer a.active:hover {
+  color: #ffffff;
+}
+
+.pane-status a,
+.pane-status a:hover {
+  color: inherit;
+}
+
+.pane-files {
+  padding: 0 20px 20px 0;
+}
+
+.pane-upload {
+  padding: 20px;
+}
+
+.pane-upload .upload-status { margin: 0; padding: 0; list-style-type: none; margin-top: 20px;  }
+.pane-upload .upload-status li { padding: 10px; border-bottom: 1px solid #dddddd; }
+.pane-upload .upload-status li:nth-child(2n+1) { background-color: #eeeeee; }
+.pane-upload .upload-status li a { float: left; }
+.pane-upload .upload-status li .upload-file-status { padding-left: 10px; }
+.pane-upload .upload-status li .info { padding-left: 35px; }
+.pane-upload progress {
+  background: none repeat scroll 0 0 padding-box #FFFFFF;
+  border: 1px solid #AAAAAA;
+  border-radius: 3px 3px 3px 3px;
+  height: 8px;
+  width: 100%;
+}
+
+.pane-files .file {
+  float: left;
+  height: 105px;
+  width: 100px;
+  margin: 15px 0 0 15px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pane-files .file .preview {
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+
+.pane-files .file .preview img {
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.pane-files .file .title {
+  padding-top: 5px;
+  height: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.pane-new-folder {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  background: #eeeeee linear-gradient(to bottom, #eeeeee, #cccccc);
+  border-bottom: 1px solid #aaaaaa;
+  padding: 10px;
+}
+.pane-new-folder input[type="text"] { margin: 0; }
+
+.pane-file-details input[type="text"],
+.pane-file-details select {
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 28px;
+}
+
+/* components/com_blogfactory/assets/css/postedit.css */
+#jform_title {
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 32px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.box-revisions ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.blogfactory-edit-box {
+}
+
+.columns {
+  margin-top: 15px;
+  overflow: hidden;
+}
+.columns .column {
+  width: 50%;
+  float: left;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.columns .column.left {
+  padding-right: 7px;
+}
+.columns .column.right {
+  padding-left: 7px;
+}
+
+.reviewing {
+  font-weight: bold;
+}
+
+#post-edit .select[multiple], #post-edit select[size] {
+  height: auto;
+}
+
+#post-edit .tags .label {
+  padding: 5px 10px;
+  /*line-height: 28px;*/
+}
+
+#post-edit .tags a:hover {
+  text-decoration: none;
+}
+
+#post-edit .tags a:hover .label {
+  background-color: #cc0000;
+}
+
+#post-edit #tag { margin: 0; }
+#post-edit .box-tags .info-tag { margin: 5px 0 10px; }
+
+/* components/com_blogfactory/assets/css/fields/alias.css */
+.blogfactory-field-alias { display: inline-block; }
+.blogfactory-field-alias .edit { vertical-align: middle; overflow: hidden; display: none; }
+.blogfactory-field-alias .edit input[type="text"] { margin: 0; }
+
+/* components/com_blogfactory/assets/css/fields/posteditor.css */
+#content .mce-btn button {
+  padding: 2px 9px;
+}
+
+#content .mce-btn {
+  border: 0;
+  background: none;
+  box-shadow: none;
+  margin-right: 1px;
+}
+
+#content .mce-btn:hover {
+  background-color: #cccccc;
+}
+
+#content .mce-panel {
+  background: #eeeeee;
+}
+
+#content .mce-tinymce {
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+
+#content .mce-container, #content .mce-container *, #content .mce-widget, #content .mce-widget * {
+  font-size: 12px;
+  border-radius: 5px;
+  /*border-color: #cccccc;*/
+}
+
+#content .mce-ico {
+  font-size: 14px;
+  width: 10px;
+}
+
+.mce-tooltip .mce-tooltip-inner {
+  box-shadow: none;
+}
+
+#content .mce-splitbtn .mce-open {
+  padding-left: 0;
+  padding-right: 4px;
+}
+
+.mce-btn-group .mce-btn.mce-active, .mce-btn-group .mce-btn.mce-active:hover, .mce-btn-group .mce-btn:active {
+  background-color: #cccccc !important;
+}
+
+/* components/com_blogfactory/assets/css/fields/calendar.css */
+.blogfactory-calendar .text span {
+  font-weight: bold;
+}
+
+.blogfactory-calendar .edit {
+  margin-top: 10px;
+}
+
+.blogfactory-calendar .blogfactory-calendar-day,
+.blogfactory-calendar .blogfactory-calendar-hour,
+.blogfactory-calendar .blogfactory-calendar-minutes { width: 16px; margin: 0; text-align: center; }
+.blogfactory-calendar .blogfactory-calendar-year { width: 28px; margin: 0; text-align: center; }
+.blogfactory-calendar select { width: 60px; margin: 0; }

@@ -1,0 +1,1533 @@
+DEBUG   |160220 14:21:44|*** Batching successive steps (nesting level 1)
+DEBUG   |160220 14:21:44|====== Starting Step number 1 ======
+DEBUG   |160220 14:21:44|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |160220 14:21:44|Akeeba\Engine\Core\Domain\Init :: New instance
+DEBUG   |160220 14:21:44|----- Finished operation 1 ------
+DEBUG   |160220 14:21:44|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Init
+DEBUG   |160220 14:21:44|====== Finished Step number 1 ======
+DEBUG   |160220 14:21:44|*** Engine steps batching: Break flag detected.
+DEBUG   |160220 14:21:44|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160220 14:21:44|Sleeping for 1964.241027832 msec, using usleep()
+DEBUG   |160220 14:21:46|Saving Kettenrad instance backend
+DEBUG   |160220 14:21:46|Kettenrad :: Attempting to load from database (backend) [backend.id5]
+DEBUG   |160220 14:21:46| -- Loaded stored Akeeba Factory (backend) [backend.id5]
+DEBUG   |160220 14:21:46|====== Starting Step number 2 ======
+INFO    |160220 14:21:46|--------------------------------------------------------------------------------
+INFO    |160220 14:21:46|Akeeba Backup 4.3.1 (2015-08-06)
+INFO    |160220 14:21:46|Got backup?
+INFO    |160220 14:21:46|--------------------------------------------------------------------------------
+INFO    |160220 14:21:46|--- System Information ---
+INFO    |160220 14:21:46|PHP Version        :5.4.45
+INFO    |160220 14:21:46|PHP OS             :Linux
+INFO    |160220 14:21:46|PHP SAPI           :cgi-fcgi
+INFO    |160220 14:21:46|OS Version         :Linux
+INFO    |160220 14:21:46|DB Version         :5.5.48-cll
+INFO    |160220 14:21:46|Web Server         :Apache
+INFO    |160220 14:21:46|Joomla! version    :3.4.8
+INFO    |160220 14:21:46|Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+INFO    |160220 14:21:46|Safe mode          :
+INFO    |160220 14:21:46|Display errors     :
+INFO    |160220 14:21:46|Error reporting    :E_ALL
+INFO    |160220 14:21:46|Error display      :off
+INFO    |160220 14:21:46|Disabled functions :proc_open, show_source, popen, disk_free_space, diskfreespace, exec, system, shell_exec, passthru, set_time_limit, leak, allow_url_fopen, mail
+INFO    |160220 14:21:46|open_basedir restr.:
+INFO    |160220 14:21:46|Max. exec. time    :30
+INFO    |160220 14:21:46|Memory limit       :128M
+INFO    |160220 14:21:46|Current mem. usage :10571248
+INFO    |160220 14:21:46|GZIP Compression   : available (good)
+INFO    |160220 14:21:46|JPATH_BASE         :<root>/administrator
+INFO    |160220 14:21:46|JPATH_SITE         :<root>
+INFO    |160220 14:21:46|JPATH_ROOT         :<root>
+INFO    |160220 14:21:46|JPATH_CACHE        :<root>/administrator/cache
+INFO    |160220 14:21:46|Computed root      :<root>
+INFO    |160220 14:21:46|Output directory   :<root>/administrator/components/com_akeeba/backup
+INFO    |160220 14:21:46|Part size (bytes)  :0
+INFO    |160220 14:21:46|--------------------------------------------------------------------------------
+INFO    |160220 14:21:46|Akeeba Backup has detected the following potential problems:
+INFO    |160220 14:21:46|- 203 Default output directory in use (low)
+INFO    |160220 14:21:46|You probably do not have to worry about them, but you should be aware of them.
+INFO    |160220 14:21:46|--------------------------------------------------------------------------------
+INFO    |160220 14:21:46|Loaded profile #1
+DEBUG   |160220 14:21:46|Archive template name: site-[HOST]-[DATE]-[TIME]
+DEBUG   |160220 14:21:46|Expanded template name: site-dietvirusbkav.com-20160220-142146
+DEBUG   |160220 14:21:46|Backup type is now set to 'full'
+DEBUG   |160220 14:21:46|Expanded archive file name: <root>/administrator/components/com_akeeba/backup/site-dietvirusbkav.com-20160220-142146.jpa
+DEBUG   |160220 14:21:46|Initializing archiver engine
+DEBUG   |160220 14:21:46|Akeeba\Engine\Archiver\Jpa :: new instance - archive <root>/administrator/components/com_akeeba/backup/site-dietvirusbkav.com-20160220-142146.jpa
+DEBUG   |160220 14:21:46|Akeeba\Engine\Archiver\Jpa :: Killing old archive
+DEBUG   |160220 14:21:46|----- Finished operation 1 ------
+DEBUG   |160220 14:21:46|----- Finished operation 2 ------
+DEBUG   |160220 14:21:46|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Init
+DEBUG   |160220 14:21:46|Kettenrad :: Domain 'init' has finished.
+DEBUG   |160220 14:21:46|====== Finished Step number 2 ======
+DEBUG   |160220 14:21:46|*** Engine steps batching: Break flag detected.
+DEBUG   |160220 14:21:46|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160220 14:21:46|Sleeping for 1958.5599899292 msec, using usleep()
+DEBUG   |160220 14:21:48|Saving Kettenrad instance backend
+DEBUG   |160220 14:21:49|Kettenrad :: Attempting to load from database (backend) [backend.id5]
+DEBUG   |160220 14:21:49| -- Loaded stored Akeeba Factory (backend) [backend.id5]
+DEBUG   |160220 14:21:49|====== Starting Step number 3 ======
+DEBUG   |160220 14:21:49|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |160220 14:21:49|Akeeba\Engine\Core\Domain\Installer :: New instance
+DEBUG   |160220 14:21:49|-- Adding installation/README.html to archive (virtual data)
+DEBUG   |160220 14:21:49|-- Adding installation/extrainfo.ini to archive (virtual data)
+DEBUG   |160220 14:21:49|----- Finished operation 1 ------
+DEBUG   |160220 14:21:49|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Installer
+DEBUG   |160220 14:21:49|====== Finished Step number 3 ======
+DEBUG   |160220 14:21:49|*** Engine steps batching: Break flag detected.
+DEBUG   |160220 14:21:49|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160220 14:21:49|Sleeping for 1969.9900150299 msec, using usleep()
+DEBUG   |160220 14:21:51|Saving Kettenrad instance backend
+DEBUG   |160220 14:21:51|Kettenrad :: Attempting to load from database (backend) [backend.id5]
+DEBUG   |160220 14:21:51| -- Loaded stored Akeeba Factory (backend) [backend.id5]
+DEBUG   |160220 14:21:51|====== Starting Step number 4 ======
+DEBUG   |160220 14:21:51|Initializing with JPA package <root>/administrator/components/com_akeeba/assets/installers/angie.jpa
+DEBUG   |160220 14:21:51|  Adding installation/angie/application.php; Next offset:546
+DEBUG   |160220 14:21:51|-- Adding installation/angie/application.php to archive (virtual data)
+DEBUG   |160220 14:21:51|----- Finished operation 1 ------
+DEBUG   |160220 14:21:51|  Adding installation/angie/assets/runscripts.php; Next offset:1122
+DEBUG   |160220 14:21:51|-- Adding installation/angie/assets/runscripts.php to archive (virtual data)
+DEBUG   |160220 14:21:51|----- Finished operation 2 ------
+DEBUG   |160220 14:21:51|  Adding installation/angie/controllers/dbrestore.php; Next offset:1949
+DEBUG   |160220 14:21:51|-- Adding installation/angie/controllers/dbrestore.php to archive (virtual data)
+DEBUG   |160220 14:21:51|----- Finished operation 3 ------
+DEBUG   |160220 14:21:51|  Adding installation/angie/controllers/finalise.php; Next offset:2503
+DEBUG   |160220 14:21:51|-- Adding installation/angie/controllers/finalise.php to archive (virtual data)
+DEBUG   |160220 14:21:51|----- Finished operation 4 ------
+DEBUG   |160220 14:21:51|  Adding installation/angie/controllers/offsitedirs.php; Next offset:3138
+DEBUG   |160220 14:21:51|-- Adding installation/angie/controllers/offsitedirs.php to archive (virtual data)
+DEBUG   |160220 14:21:51|----- Finished operation 5 ------
+DEBUG   |160220 14:21:51|  Adding installation/angie/controllers/password.php; Next offset:3681
+DEBUG   |160220 14:21:51|-- Adding installation/angie/controllers/password.php to archive (virtual data)
+DEBUG   |160220 14:21:51|----- Finished operation 6 ------
+DEBUG   |160220 14:21:51|  Adding installation/angie/controllers/session.php; Next offset:4198
+DEBUG   |160220 14:21:51|-- Adding installation/angie/controllers/session.php to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 7 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/dispatcher.php; Next offset:5054
+DEBUG   |160220 14:21:57|-- Adding installation/angie/dispatcher.php to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 8 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/helpers/ini.php; Next offset:6668
+DEBUG   |160220 14:21:57|-- Adding installation/angie/helpers/ini.php to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 9 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/helpers/select.php; Next offset:10660
+DEBUG   |160220 14:21:57|-- Adding installation/angie/helpers/select.php to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 10 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/js/ajax.js; Next offset:11938
+DEBUG   |160220 14:21:57|-- Adding installation/angie/js/ajax.js to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 11 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/js/database.js; Next offset:13427
+DEBUG   |160220 14:21:57|-- Adding installation/angie/js/database.js to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 12 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/js/finalise.js; Next offset:14117
+DEBUG   |160220 14:21:57|-- Adding installation/angie/js/finalise.js to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 13 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/js/ftpbrowser.js; Next offset:14484
+DEBUG   |160220 14:21:57|-- Adding installation/angie/js/ftpbrowser.js to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 14 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/js/json.js; Next offset:15987
+DEBUG   |160220 14:21:57|-- Adding installation/angie/js/json.js to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 15 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/js/offsitedirs.js; Next offset:16914
+DEBUG   |160220 14:21:57|-- Adding installation/angie/js/offsitedirs.js to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 16 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/af-ZA.ini; Next offset:26997
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/af-ZA.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 17 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/ar.ini; Next offset:37077
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/ar.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 18 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/az-AZ.ini; Next offset:48021
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/az-AZ.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 19 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/bg-BG.ini; Next offset:61149
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/bg-BG.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 20 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/ca-ES.ini; Next offset:71232
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/ca-ES.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 21 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/cs-CZ.ini; Next offset:82689
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/cs-CZ.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 22 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/da-DK.ini; Next offset:93293
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/da-DK.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 23 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/de-DE.ini; Next offset:104667
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/de-DE.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 24 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/el-GR.ini; Next offset:118975
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/el-GR.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 25 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/en-GB.ini; Next offset:129043
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/en-GB.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 26 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/es-ES.ini; Next offset:140077
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/es-ES.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 27 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/et-EE.ini; Next offset:150648
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/et-EE.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 28 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/fa-IR.ini; Next offset:161815
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/fa-IR.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 29 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/fi-FI.ini; Next offset:171898
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/fi-FI.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 30 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/fr-FR.ini; Next offset:183004
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/fr-FR.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 31 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/hr-HR.ini; Next offset:193405
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/hr-HR.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 32 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/hu-HU.ini; Next offset:203902
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/hu-HU.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 33 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/it-IT.ini; Next offset:215100
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/it-IT.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 34 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/ja-JP.ini; Next offset:227023
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/ja-JP.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 35 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/lt-LT.ini; Next offset:237106
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/lt-LT.ini to archive (virtual data)
+DEBUG   |160220 14:21:57|----- Finished operation 36 ------
+DEBUG   |160220 14:21:57|  Adding installation/angie/language/mk-MK.ini; Next offset:247189
+DEBUG   |160220 14:21:57|-- Adding installation/angie/language/mk-MK.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 37 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/nb-NO.ini; Next offset:257575
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/nb-NO.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 38 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/nl-NL.ini; Next offset:268321
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/nl-NL.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 39 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/pl-PL.ini; Next offset:279921
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/pl-PL.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 40 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/pt-BR.ini; Next offset:290987
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/pt-BR.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 41 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/pt-PT.ini; Next offset:301609
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/pt-PT.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 42 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/ro-RO.ini; Next offset:311830
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/ro-RO.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 43 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/ru-RU.ini; Next offset:326086
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/ru-RU.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 44 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/sk-SK.ini; Next offset:337481
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/sk-SK.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 45 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/sv-SE.ini; Next offset:348208
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/sv-SE.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 46 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/th-TH.ini; Next offset:358291
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/th-TH.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 47 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/tr-TR.ini; Next offset:368456
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/tr-TR.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 48 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/uk-UA.ini; Next offset:378539
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/uk-UA.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 49 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/vi-VN.ini; Next offset:388809
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/vi-VN.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 50 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/vi.ini; Next offset:399457
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/vi.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 51 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/zh-CN.ini; Next offset:411146
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/zh-CN.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 52 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/language/zh-TW.ini; Next offset:422860
+DEBUG   |160220 14:21:58|-- Adding installation/angie/language/zh-TW.ini to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 53 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/models/database.php; Next offset:424074
+DEBUG   |160220 14:21:58|-- Adding installation/angie/models/database.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 54 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/models/finalise.php; Next offset:425268
+DEBUG   |160220 14:21:58|-- Adding installation/angie/models/finalise.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 55 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/models/ftpbrowser.php; Next offset:426795
+DEBUG   |160220 14:21:58|-- Adding installation/angie/models/ftpbrowser.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 56 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/models/offsitedirs.php; Next offset:427995
+DEBUG   |160220 14:21:58|-- Adding installation/angie/models/offsitedirs.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 57 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/models/session.php; Next offset:429033
+DEBUG   |160220 14:21:58|-- Adding installation/angie/models/session.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 58 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/models/steps.php; Next offset:431118
+DEBUG   |160220 14:21:58|-- Adding installation/angie/models/steps.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 59 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/database/tmpl/default.php; Next offset:433181
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/database/tmpl/default.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 60 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/database/view.html.php; Next offset:433656
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/database/view.html.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 61 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/finalise/tmpl/config.php; Next offset:434106
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/finalise/tmpl/config.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 62 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/finalise/tmpl/default.php; Next offset:435171
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/finalise/tmpl/default.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 63 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/finalise/tmpl/success.php; Next offset:435532
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/finalise/tmpl/success.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 64 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/ftpbrowser/tmpl/default.php; Next offset:436465
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/ftpbrowser/tmpl/default.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 65 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/ftpbrowser/view.html.php; Next offset:437031
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/ftpbrowser/view.html.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 66 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/offsitedirs/tmpl/default.php; Next offset:438259
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/offsitedirs/tmpl/default.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 67 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/offsitedirs/view.html.php; Next offset:438734
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/offsitedirs/view.html.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 68 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/password/tmpl/default.php; Next offset:439437
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/password/tmpl/default.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 69 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/runscripts/view.raw.php; Next offset:440194
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/runscripts/view.raw.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 70 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/session/tmpl/default.php; Next offset:441672
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/session/tmpl/default.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 71 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/session/view.html.php; Next offset:442060
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/session/view.html.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 72 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/steps/tmpl/buttons.php; Next offset:443009
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/steps/tmpl/buttons.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 73 ------
+DEBUG   |160220 14:21:58|  Adding installation/angie/views/steps/tmpl/steps.php; Next offset:443920
+DEBUG   |160220 14:21:58|-- Adding installation/angie/views/steps/tmpl/steps.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 74 ------
+DEBUG   |160220 14:21:58|  Adding installation/defines.php; Next offset:444382
+DEBUG   |160220 14:21:58|-- Adding installation/defines.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 75 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/application/application.php; Next offset:447533
+DEBUG   |160220 14:21:58|-- Adding installation/framework/application/application.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 76 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/autoloader.php; Next offset:448472
+DEBUG   |160220 14:21:58|-- Adding installation/framework/autoloader.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 77 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/controller/controller.php; Next offset:454848
+DEBUG   |160220 14:21:58|-- Adding installation/framework/controller/controller.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 78 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/driver/mysql.php; Next offset:457863
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/driver/mysql.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 79 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/driver/mysqli.php; Next offset:463077
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/driver/mysqli.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 80 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/driver/pdomysql.php; Next offset:466984
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/driver/pdomysql.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 81 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/driver/postgresql.php; Next offset:475559
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/driver/postgresql.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 82 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/driver/sqlazure.php; Next offset:476162
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/driver/sqlazure.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 83 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/driver/sqlsrv.php; Next offset:482630
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/driver/sqlsrv.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 84 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/driver.php; Next offset:491815
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/driver.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 85 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/factory.php; Next offset:493394
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/factory.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 86 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/query/limitable.php; Next offset:494355
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/query/limitable.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 87 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/query/mysql.php; Next offset:494850
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/query/mysql.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 88 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/query/mysqli.php; Next offset:496029
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/query/mysqli.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 89 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/query/pdomysql.php; Next offset:496531
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/query/pdomysql.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 90 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/query/postgresql.php; Next offset:499781
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/query/postgresql.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 91 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/query/sqlazure.php; Next offset:500476
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/query/sqlazure.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 92 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/query/sqlsrv.php; Next offset:502144
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/query/sqlsrv.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 93 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/query.php; Next offset:508932
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/query.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 94 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/restore/mysql.php; Next offset:509270
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/restore/mysql.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 95 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/restore/mysqli.php; Next offset:512378
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/restore/mysqli.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 96 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/restore/pdomysql.php; Next offset:512723
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/restore/pdomysql.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 97 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/restore/postgresql.php; Next offset:515632
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/restore/postgresql.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 98 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/restore/sqlazure.php; Next offset:515973
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/restore/sqlazure.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 99 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/restore/sqlsrv.php; Next offset:518685
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/restore/sqlsrv.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 100 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/database/restore.php; Next offset:524264
+DEBUG   |160220 14:21:58|-- Adding installation/framework/database/restore.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 101 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/dispatcher/dispatcher.php; Next offset:526229
+DEBUG   |160220 14:21:58|-- Adding installation/framework/dispatcher/dispatcher.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 102 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/document/document.php; Next offset:528103
+DEBUG   |160220 14:21:58|-- Adding installation/framework/document/document.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 103 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/document/html.php; Next offset:528519
+DEBUG   |160220 14:21:58|-- Adding installation/framework/document/html.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 104 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/document/json.php; Next offset:528887
+DEBUG   |160220 14:21:58|-- Adding installation/framework/document/json.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 105 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/document/raw.php; Next offset:529245
+DEBUG   |160220 14:21:58|-- Adding installation/framework/document/raw.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 106 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/exception/app.php; Next offset:529576
+DEBUG   |160220 14:21:58|-- Adding installation/framework/exception/app.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 107 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/exception/dispatch.php; Next offset:529916
+DEBUG   |160220 14:21:58|-- Adding installation/framework/exception/dispatch.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 108 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/exception/interface.php; Next offset:530234
+DEBUG   |160220 14:21:58|-- Adding installation/framework/exception/interface.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 109 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/filter/input.php; Next offset:536171
+DEBUG   |160220 14:21:58|-- Adding installation/framework/filter/input.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 110 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/ftp/ftp.php; Next offset:541633
+DEBUG   |160220 14:21:58|-- Adding installation/framework/ftp/ftp.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 111 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/input/input.php; Next offset:543787
+DEBUG   |160220 14:21:58|-- Adding installation/framework/input/input.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 112 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/log/log.php; Next offset:544470
+DEBUG   |160220 14:21:58|-- Adding installation/framework/log/log.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 113 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/model/model.php; Next offset:547952
+DEBUG   |160220 14:21:58|-- Adding installation/framework/model/model.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 114 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/object/object.php; Next offset:549115
+DEBUG   |160220 14:21:58|-- Adding installation/framework/object/object.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 115 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/session/session.php; Next offset:550970
+DEBUG   |160220 14:21:58|-- Adding installation/framework/session/session.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 116 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/text/text.php; Next offset:552794
+DEBUG   |160220 14:21:58|-- Adding installation/framework/text/text.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 117 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/timer/timer.php; Next offset:553692
+DEBUG   |160220 14:21:58|-- Adding installation/framework/timer/timer.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 118 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/uri/uri.php; Next offset:558275
+DEBUG   |160220 14:21:58|-- Adding installation/framework/uri/uri.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 119 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/utils/buffer.php; Next offset:559821
+DEBUG   |160220 14:21:58|-- Adding installation/framework/utils/buffer.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 120 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/utils/ip.php; Next offset:561140
+DEBUG   |160220 14:21:58|-- Adding installation/framework/utils/ip.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 121 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/utils/password.php; Next offset:563895
+DEBUG   |160220 14:21:58|-- Adding installation/framework/utils/password.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 122 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/utils/path.php; Next offset:565313
+DEBUG   |160220 14:21:58|-- Adding installation/framework/utils/path.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 123 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/utils/phptokenizer.php; Next offset:567679
+DEBUG   |160220 14:21:58|-- Adding installation/framework/utils/phptokenizer.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 124 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/utils/randval.php; Next offset:569334
+DEBUG   |160220 14:21:58|-- Adding installation/framework/utils/randval.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 125 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/utils/serialised.php; Next offset:572169
+DEBUG   |160220 14:21:58|-- Adding installation/framework/utils/serialised.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 126 ------
+DEBUG   |160220 14:21:58|  Adding installation/framework/view/view.php; Next offset:576922
+DEBUG   |160220 14:21:58|-- Adding installation/framework/view/view.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 127 ------
+DEBUG   |160220 14:21:58|  Adding installation/index.php; Next offset:578050
+DEBUG   |160220 14:21:58|-- Adding installation/index.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 128 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/css/bootstrap-responsive.min.css; Next offset:582106
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/css/bootstrap-responsive.min.css to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 129 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/css/bootstrap.min.css; Next offset:599220
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/css/bootstrap.min.css to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 130 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/css/footer.css; Next offset:599672
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/css/footer.css to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 131 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/css/old/bootstrap-responsive.min.css; Next offset:603736
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/css/old/bootstrap-responsive.min.css to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 132 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/css/old/bootstrap.min.css; Next offset:620843
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/css/old/bootstrap.min.css to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 133 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/error.php; Next offset:621694
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/error.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 134 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/img/glyphicons-halflings-white.png; Next offset:630291
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/img/glyphicons-halflings-white.png to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 135 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/img/glyphicons-halflings.png; Next offset:642975
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/img/glyphicons-halflings.png to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 136 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/img/loading_big.gif; Next offset:650532
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/img/loading_big.gif to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 137 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/img/loading_small.gif; Next offset:654448
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/img/loading_small.gif to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 138 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/index.php; Next offset:655374
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/index.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 139 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/js/bootstrap.min.js; Next offset:662892
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/js/bootstrap.min.js to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 140 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/js/jquery.js; Next offset:695710
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/js/jquery.js to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 141 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/php/buttons.php; Next offset:696301
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/php/buttons.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 142 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/php/head.php; Next offset:697007
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/php/head.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 143 ------
+DEBUG   |160220 14:21:58|  Adding installation/template/angie/php/messages.php; Next offset:697507
+DEBUG   |160220 14:21:58|-- Adding installation/template/angie/php/messages.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 144 ------
+DEBUG   |160220 14:21:58|  Adding installation/tmp/.htaccess; Next offset:697658
+DEBUG   |160220 14:21:58|-- Adding installation/tmp/.htaccess to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 145 ------
+DEBUG   |160220 14:21:58|  Adding installation/tmp/index.html; Next offset:697742
+DEBUG   |160220 14:21:58|-- Adding installation/tmp/index.html to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 146 ------
+DEBUG   |160220 14:21:58|  Adding installation/tmp/web.config; Next offset:697904
+DEBUG   |160220 14:21:58|-- Adding installation/tmp/web.config to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 147 ------
+DEBUG   |160220 14:21:58|  Adding installation/version.php; Next offset:698092
+DEBUG   |160220 14:21:58|-- Adding installation/version.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 148 ------
+DEBUG   |160220 14:21:58|  Skipping installation/sql/
+DEBUG   |160220 14:21:58|----- Finished operation 149 ------
+DEBUG   |160220 14:21:58|  Done with package angie.jpa
+DEBUG   |160220 14:21:58|----- Finished operation 150 ------
+DEBUG   |160220 14:21:58|Initializing with JPA package <root>/administrator/components/com_akeeba/assets/installers/angie-joomla.jpa
+DEBUG   |160220 14:21:58|  Adding installation/platform/controllers/main.php; Next offset:762
+DEBUG   |160220 14:21:58|-- Adding installation/platform/controllers/main.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 151 ------
+DEBUG   |160220 14:21:58|  Adding installation/platform/controllers/setup.php; Next offset:1287
+DEBUG   |160220 14:21:58|-- Adding installation/platform/controllers/setup.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 152 ------
+DEBUG   |160220 14:21:58|  Adding installation/platform/js/main.js; Next offset:1833
+DEBUG   |160220 14:21:58|-- Adding installation/platform/js/main.js to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 153 ------
+DEBUG   |160220 14:21:58|  Adding installation/platform/js/setup.js; Next offset:2690
+DEBUG   |160220 14:21:58|-- Adding installation/platform/js/setup.js to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 154 ------
+DEBUG   |160220 14:21:58|  Adding installation/platform/models/configuration.php; Next offset:4676
+DEBUG   |160220 14:21:58|-- Adding installation/platform/models/configuration.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 155 ------
+DEBUG   |160220 14:21:58|  Adding installation/platform/models/jconfig/j25.php; Next offset:5434
+DEBUG   |160220 14:21:58|-- Adding installation/platform/models/jconfig/j25.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 156 ------
+DEBUG   |160220 14:21:58|  Adding installation/platform/models/jconfig/j30.php; Next offset:6181
+DEBUG   |160220 14:21:58|-- Adding installation/platform/models/jconfig/j30.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 157 ------
+DEBUG   |160220 14:21:58|  Adding installation/platform/models/main.php; Next offset:8521
+DEBUG   |160220 14:21:58|-- Adding installation/platform/models/main.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 158 ------
+DEBUG   |160220 14:21:58|  Adding installation/platform/models/setup.php; Next offset:13026
+DEBUG   |160220 14:21:58|-- Adding installation/platform/models/setup.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 159 ------
+DEBUG   |160220 14:21:58|  Adding installation/platform/views/finalise/view.html.php; Next offset:13767
+DEBUG   |160220 14:21:58|-- Adding installation/platform/views/finalise/view.html.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 160 ------
+DEBUG   |160220 14:21:58|  Adding installation/platform/views/main/tmpl/default.php; Next offset:14517
+DEBUG   |160220 14:21:58|-- Adding installation/platform/views/main/tmpl/default.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 161 ------
+DEBUG   |160220 14:21:58|  Adding installation/platform/views/main/tmpl/init.php; Next offset:16121
+DEBUG   |160220 14:21:58|-- Adding installation/platform/views/main/tmpl/init.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 162 ------
+DEBUG   |160220 14:21:58|  Adding installation/platform/views/main/view.raw.php; Next offset:16972
+DEBUG   |160220 14:21:58|-- Adding installation/platform/views/main/view.raw.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 163 ------
+DEBUG   |160220 14:21:58|  Adding installation/platform/views/setup/tmpl/default.php; Next offset:19491
+DEBUG   |160220 14:21:58|-- Adding installation/platform/views/setup/tmpl/default.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 164 ------
+DEBUG   |160220 14:21:58|  Adding installation/platform/views/setup/view.html.php; Next offset:19885
+DEBUG   |160220 14:21:58|-- Adding installation/platform/views/setup/view.html.php to archive (virtual data)
+DEBUG   |160220 14:21:58|----- Finished operation 165 ------
+DEBUG   |160220 14:21:58|  Done with package angie-joomla.jpa
+DEBUG   |160220 14:21:58|  Done with installer seeding.
+DEBUG   |160220 14:21:58|Initializing with JPA package has finished
+DEBUG   |160220 14:21:58|Akeeba\Engine\Core\Domain\Installer:: archive is initialized
+DEBUG   |160220 14:21:58|----- Finished operation 166 ------
+DEBUG   |160220 14:21:58|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Installer
+DEBUG   |160220 14:21:58|Kettenrad :: Domain 'installer' has finished.
+DEBUG   |160220 14:21:58|====== Finished Step number 4 ======
+DEBUG   |160220 14:21:58|*** Engine steps batching: Break flag detected.
+DEBUG   |160220 14:21:58|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160220 14:21:58|No need to sleep; execution time: 7562.863111496 msec; min. exec. time: 2000 msec
+DEBUG   |160220 14:21:58|Saving Kettenrad instance backend
+DEBUG   |160220 14:21:59|Kettenrad :: Attempting to load from database (backend) [backend.id5]
+DEBUG   |160220 14:21:59| -- Loaded stored Akeeba Factory (backend) [backend.id5]
+DEBUG   |160220 14:21:59|====== Starting Step number 5 ======
+DEBUG   |160220 14:21:59|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |160220 14:21:59|Akeeba\Engine\Core\Domain\Db :: New instance
+DEBUG   |160220 14:21:59|Akeeba\Engine\Core\Domain\Db :: Preparing instance
+DEBUG   |160220 14:21:59|Fetching filter data from database
+DEBUG   |160220 14:21:59|Loading filters
+DEBUG   |160220 14:21:59|-- Loading filter Multidb
+DEBUG   |160220 14:21:59|-- Loading filter Regextabledata
+DEBUG   |160220 14:21:59|-- Loading filter Regextables
+DEBUG   |160220 14:21:59|-- Loading filter Regexdirectories
+DEBUG   |160220 14:21:59|-- Loading filter Tabledata
+DEBUG   |160220 14:21:59|-- Loading filter Incremental
+DEBUG   |160220 14:21:59|-- Loading filter Regexskipdirs
+DEBUG   |160220 14:21:59|-- Loading filter Files
+DEBUG   |160220 14:21:59|-- Loading filter Tables
+DEBUG   |160220 14:21:59|-- Loading filter Regexskipfiles
+DEBUG   |160220 14:21:59|-- Loading filter Regexfiles
+DEBUG   |160220 14:21:59|-- Loading filter Extradirs
+DEBUG   |160220 14:21:59|-- Loading filter Directories
+DEBUG   |160220 14:21:59|-- Loading filter Skipfiles
+DEBUG   |160220 14:21:59|-- Loading filter Skipdirs
+DEBUG   |160220 14:21:59|-- Loading filter Excludefolders
+DEBUG   |160220 14:21:59|-- Loading filter Excludefiles
+DEBUG   |160220 14:21:59|-- Loading filter Joomlaskipfiles
+DEBUG   |160220 14:21:59|-- Loading filter Sitedb
+DEBUG   |160220 14:21:59|-- Loading filter Libraries
+DEBUG   |160220 14:21:59|-- Loading filter Excludetabledata
+DEBUG   |160220 14:21:59|-- Loading filter Siteroot
+DEBUG   |160220 14:21:59|-- Loading filter Systemcachefiles
+DEBUG   |160220 14:21:59|-- Loading filter Joomlaskipdirs
+DEBUG   |160220 14:21:59|Loading optional filters
+DEBUG   |160220 14:21:59|-- Loading optional filter Stack\StackFinder
+DEBUG   |160220 14:21:59|----- Finished operation 1 ------
+DEBUG   |160220 14:21:59|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Db
+DEBUG   |160220 14:21:59|====== Finished Step number 5 ======
+DEBUG   |160220 14:21:59|*** Engine steps batching: Break flag detected.
+DEBUG   |160220 14:21:59|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160220 14:21:59|Sleeping for 1809.3459606171 msec, using usleep()
+DEBUG   |160220 14:22:01|Saving Kettenrad instance backend
+DEBUG   |160220 14:22:01|Kettenrad :: Attempting to load from database (backend) [backend.id5]
+DEBUG   |160220 14:22:01| -- Loaded stored Akeeba Factory (backend) [backend.id5]
+DEBUG   |160220 14:22:01|====== Starting Step number 6 ======
+DEBUG   |160220 14:22:01|Akeeba\Engine\Core\Domain\Db :: Iterating next database
+DEBUG   |160220 14:22:01|Akeeba\Engine\Dump\Native :: New instance
+DEBUG   |160220 14:22:01|Akeeba\Engine\Dump\Native :: Processing parameters
+DEBUG   |160220 14:22:01|Akeeba\Engine\Dump\Native :: Instanciating new native database dump engine \Akeeba\Engine\Dump\Native\Mysql
+DEBUG   |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: New instance
+DEBUG   |160220 14:22:01|Akeeba\Engine\Dump\Base :: Processing parameters
+DEBUG   |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Finding tables to include in the backup set
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_ak_profiles (internal name #__ak_profiles)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_ak_stats (internal name #__ak_stats)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_ak_storage (internal name #__ak_storage)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_akeeba_common (internal name #__akeeba_common)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_assets (internal name #__assets)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_associations (internal name #__associations)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_banner_clients (internal name #__banner_clients)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_banner_tracks (internal name #__banner_tracks)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_banners (internal name #__banners)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_categories (internal name #__categories)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_contact_details (internal name #__contact_details)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_content (internal name #__content)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_content_frontpage (internal name #__content_frontpage)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_content_rating (internal name #__content_rating)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_content_types (internal name #__content_types)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_contentitem_tag_map (internal name #__contentitem_tag_map)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_core_log_searches (internal name #__core_log_searches)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_extensions (internal name #__extensions)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_filters (internal name #__finder_filters)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links (internal name #__finder_links)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_terms0 (internal name #__finder_links_terms0)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_terms1 (internal name #__finder_links_terms1)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_terms2 (internal name #__finder_links_terms2)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_terms3 (internal name #__finder_links_terms3)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_terms4 (internal name #__finder_links_terms4)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_terms5 (internal name #__finder_links_terms5)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_terms6 (internal name #__finder_links_terms6)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_terms7 (internal name #__finder_links_terms7)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_terms8 (internal name #__finder_links_terms8)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_terms9 (internal name #__finder_links_terms9)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_termsa (internal name #__finder_links_termsa)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_termsb (internal name #__finder_links_termsb)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_termsc (internal name #__finder_links_termsc)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_termsd (internal name #__finder_links_termsd)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_termse (internal name #__finder_links_termse)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_links_termsf (internal name #__finder_links_termsf)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_taxonomy (internal name #__finder_taxonomy)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_taxonomy_map (internal name #__finder_taxonomy_map)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_terms (internal name #__finder_terms)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_terms_common (internal name #__finder_terms_common)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_tokens (internal name #__finder_tokens)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_tokens_aggregate (internal name #__finder_tokens_aggregate)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_finder_types (internal name #__finder_types)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_languages (internal name #__languages)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_menu (internal name #__menu)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_menu_types (internal name #__menu_types)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_messages (internal name #__messages)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_messages_cfg (internal name #__messages_cfg)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_modules (internal name #__modules)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_modules_menu (internal name #__modules_menu)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_newsfeeds (internal name #__newsfeeds)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_overrider (internal name #__overrider)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_postinstall_messages (internal name #__postinstall_messages)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_redirect_links (internal name #__redirect_links)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_revslider_css (internal name #__revslider_css)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_revslider_layer_animations (internal name #__revslider_layer_animations)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_revslider_settings (internal name #__revslider_settings)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_revslider_sliders (internal name #__revslider_sliders)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_revslider_slides (internal name #__revslider_slides)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_revslider_static_slides (internal name #__revslider_static_slides)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_schemas (internal name #__schemas)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_session (internal name #__session)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_sppagebuilder (internal name #__sppagebuilder)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_spsimpleportfolio_items (internal name #__spsimpleportfolio_items)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_spsimpleportfolio_tags (internal name #__spsimpleportfolio_tags)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_tags (internal name #__tags)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_template_styles (internal name #__template_styles)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_ucm_base (internal name #__ucm_base)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_ucm_content (internal name #__ucm_content)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_ucm_history (internal name #__ucm_history)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_update_sites (internal name #__update_sites)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_update_sites_extensions (internal name #__update_sites_extensions)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_updates (internal name #__updates)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_user_keys (internal name #__user_keys)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_user_notes (internal name #__user_notes)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_user_profiles (internal name #__user_profiles)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_user_usergroup_map (internal name #__user_usergroup_map)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_usergroups (internal name #__usergroups)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_users (internal name #__users)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding bkav_viewlevels (internal name #__viewlevels)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_akeeba_common (internal name o7wxd_akeeba_common)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_assets (internal name o7wxd_assets)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_associations (internal name o7wxd_associations)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_banner_clients (internal name o7wxd_banner_clients)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_banner_tracks (internal name o7wxd_banner_tracks)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_banners (internal name o7wxd_banners)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_categories (internal name o7wxd_categories)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_contact_details (internal name o7wxd_contact_details)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_content (internal name o7wxd_content)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_content_frontpage (internal name o7wxd_content_frontpage)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_content_rating (internal name o7wxd_content_rating)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_content_types (internal name o7wxd_content_types)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_contentitem_tag_map (internal name o7wxd_contentitem_tag_map)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_core_log_searches (internal name o7wxd_core_log_searches)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_djmt_albums (internal name o7wxd_djmt_albums)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_djmt_items (internal name o7wxd_djmt_items)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_djmt_resmushit (internal name o7wxd_djmt_resmushit)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_djtabs_groups (internal name o7wxd_djtabs_groups)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_djtabs_items (internal name o7wxd_djtabs_items)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_djtabs_themes (internal name o7wxd_djtabs_themes)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_extensions (internal name o7wxd_extensions)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_filters (internal name o7wxd_finder_filters)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links (internal name o7wxd_finder_links)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_terms0 (internal name o7wxd_finder_links_terms0)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_terms1 (internal name o7wxd_finder_links_terms1)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_terms2 (internal name o7wxd_finder_links_terms2)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_terms3 (internal name o7wxd_finder_links_terms3)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_terms4 (internal name o7wxd_finder_links_terms4)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_terms5 (internal name o7wxd_finder_links_terms5)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_terms6 (internal name o7wxd_finder_links_terms6)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_terms7 (internal name o7wxd_finder_links_terms7)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_terms8 (internal name o7wxd_finder_links_terms8)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_terms9 (internal name o7wxd_finder_links_terms9)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_termsa (internal name o7wxd_finder_links_termsa)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_termsb (internal name o7wxd_finder_links_termsb)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_termsc (internal name o7wxd_finder_links_termsc)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_termsd (internal name o7wxd_finder_links_termsd)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_termse (internal name o7wxd_finder_links_termse)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_links_termsf (internal name o7wxd_finder_links_termsf)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_taxonomy (internal name o7wxd_finder_taxonomy)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_taxonomy_map (internal name o7wxd_finder_taxonomy_map)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_terms (internal name o7wxd_finder_terms)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_terms_common (internal name o7wxd_finder_terms_common)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_tokens (internal name o7wxd_finder_tokens)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_tokens_aggregate (internal name o7wxd_finder_tokens_aggregate)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_finder_types (internal name o7wxd_finder_types)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_languages (internal name o7wxd_languages)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_menu (internal name o7wxd_menu)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_menu_types (internal name o7wxd_menu_types)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_messages (internal name o7wxd_messages)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_messages_cfg (internal name o7wxd_messages_cfg)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_modules (internal name o7wxd_modules)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_modules_menu (internal name o7wxd_modules_menu)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_newsfeeds (internal name o7wxd_newsfeeds)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_overrider (internal name o7wxd_overrider)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_postinstall_messages (internal name o7wxd_postinstall_messages)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_redirect_links (internal name o7wxd_redirect_links)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_schemas (internal name o7wxd_schemas)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_session (internal name o7wxd_session)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_tags (internal name o7wxd_tags)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_template_styles (internal name o7wxd_template_styles)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_ucm_base (internal name o7wxd_ucm_base)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_ucm_content (internal name o7wxd_ucm_content)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_ucm_history (internal name o7wxd_ucm_history)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_update_sites (internal name o7wxd_update_sites)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_update_sites_extensions (internal name o7wxd_update_sites_extensions)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_updates (internal name o7wxd_updates)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_user_keys (internal name o7wxd_user_keys)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_user_notes (internal name o7wxd_user_notes)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_user_profiles (internal name o7wxd_user_profiles)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_user_usergroup_map (internal name o7wxd_user_usergroup_map)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_usergroups (internal name o7wxd_usergroups)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_users (internal name o7wxd_users)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_viewlevels (internal name o7wxd_viewlevels)
+INFO    |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Adding o7wxd_weblinks (internal name o7wxd_weblinks)
+DEBUG   |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Starting CREATE TABLE and dependency scanning
+DEBUG   |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Got database connection
+DEBUG   |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Got SHOW TABLES
+DEBUG   |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Got table list
+DEBUG   |160220 14:22:01|Akeeba\Engine\Dump\Native\Mysql :: Processed dependencies
+DEBUG   |160220 14:22:01|Akeeba\Engine\Dump\Base :: Getting temporary file
+DEBUG   |160220 14:22:01|Akeeba\Engine\Dump\Base :: Temporary file is <root>/administrator/components/com_akeeba/backup/d170e78b.sql
+DEBUG   |160220 14:22:01|AkeebaDomainDBBackup :: SQL temp file is <root>/administrator/components/com_akeeba/backup/d170e78b.sql
+DEBUG   |160220 14:22:01|AkeebaDomainDBBackup :: SQL file location in archive is installation/sql/site.sql
+DEBUG   |160220 14:22:01|AkeebaDomainDBBackup :: Deleting leftover files, if any
+DEBUG   |160220 14:22:01|Akeeba\Engine\Dump\Base :: Initializing algorithm for first run
+DEBUG   |160220 14:22:01|----- Finished operation 1 ------
+DEBUG   |160220 14:22:01|Rows on #__ak_profiles : 1
+INFO    |160220 14:22:01|Beginning dump of #__ak_profiles
+DEBUG   |160220 14:22:01|Done dumping #__ak_profiles
+DEBUG   |160220 14:22:01|----- Finished operation 2 ------
+DEBUG   |160220 14:22:01|Rows on #__ak_stats : 3
+INFO    |160220 14:22:01|Beginning dump of #__ak_stats
+DEBUG   |160220 14:22:01|Done dumping #__ak_stats
+DEBUG   |160220 14:22:01|----- Finished operation 3 ------
+DEBUG   |160220 14:22:01|Rows on #__ak_storage : 0
+DEBUG   |160220 14:22:01|Done dumping #__ak_storage
+DEBUG   |160220 14:22:01|----- Finished operation 4 ------
+DEBUG   |160220 14:22:01|Rows on #__akeeba_common : 3
+INFO    |160220 14:22:01|Beginning dump of #__akeeba_common
+DEBUG   |160220 14:22:01|Done dumping #__akeeba_common
+DEBUG   |160220 14:22:01|----- Finished operation 5 ------
+DEBUG   |160220 14:22:01|Rows on #__assets : 87
+INFO    |160220 14:22:01|Beginning dump of #__assets
+DEBUG   |160220 14:22:01|Done dumping #__assets
+DEBUG   |160220 14:22:01|----- Finished operation 6 ------
+DEBUG   |160220 14:22:01|Rows on #__associations : 0
+DEBUG   |160220 14:22:01|Done dumping #__associations
+DEBUG   |160220 14:22:01|----- Finished operation 7 ------
+DEBUG   |160220 14:22:01|Rows on #__banner_clients : 0
+DEBUG   |160220 14:22:01|Done dumping #__banner_clients
+DEBUG   |160220 14:22:01|----- Finished operation 8 ------
+DEBUG   |160220 14:22:01|Rows on #__banner_tracks : 0
+DEBUG   |160220 14:22:01|Done dumping #__banner_tracks
+DEBUG   |160220 14:22:01|----- Finished operation 9 ------
+DEBUG   |160220 14:22:01|Rows on #__banners : 0
+DEBUG   |160220 14:22:01|Done dumping #__banners
+DEBUG   |160220 14:22:01|----- Finished operation 10 ------
+DEBUG   |160220 14:22:01|Rows on #__categories : 11
+INFO    |160220 14:22:01|Beginning dump of #__categories
+DEBUG   |160220 14:22:01|Done dumping #__categories
+DEBUG   |160220 14:22:01|----- Finished operation 11 ------
+DEBUG   |160220 14:22:01|Rows on #__contact_details : 0
+DEBUG   |160220 14:22:01|Done dumping #__contact_details
+DEBUG   |160220 14:22:01|----- Finished operation 12 ------
+DEBUG   |160220 14:22:01|Rows on #__content : 6
+INFO    |160220 14:22:01|Beginning dump of #__content
+DEBUG   |160220 14:22:01|Done dumping #__content
+DEBUG   |160220 14:22:01|----- Finished operation 13 ------
+DEBUG   |160220 14:22:01|Rows on #__content_frontpage : 0
+DEBUG   |160220 14:22:01|Done dumping #__content_frontpage
+DEBUG   |160220 14:22:01|----- Finished operation 14 ------
+DEBUG   |160220 14:22:01|Rows on #__content_rating : 0
+DEBUG   |160220 14:22:01|Done dumping #__content_rating
+DEBUG   |160220 14:22:01|----- Finished operation 15 ------
+DEBUG   |160220 14:22:01|Rows on #__content_types : 13
+INFO    |160220 14:22:01|Beginning dump of #__content_types
+DEBUG   |160220 14:22:01|Done dumping #__content_types
+DEBUG   |160220 14:22:01|----- Finished operation 16 ------
+DEBUG   |160220 14:22:01|Rows on #__contentitem_tag_map : 6
+INFO    |160220 14:22:01|Beginning dump of #__contentitem_tag_map
+DEBUG   |160220 14:22:01|Done dumping #__contentitem_tag_map
+DEBUG   |160220 14:22:01|----- Finished operation 17 ------
+DEBUG   |160220 14:22:01|Rows on #__core_log_searches : 0
+DEBUG   |160220 14:22:01|Done dumping #__core_log_searches
+DEBUG   |160220 14:22:01|----- Finished operation 18 ------
+DEBUG   |160220 14:22:01|Rows on #__extensions : 148
+INFO    |160220 14:22:01|Beginning dump of #__extensions
+DEBUG   |160220 14:22:01|Writing 176266 bytes to the dump file
+DEBUG   |160220 14:22:02|Done dumping #__extensions
+DEBUG   |160220 14:22:02|----- Finished operation 19 ------
+DEBUG   |160220 14:22:02|Rows on #__finder_filters : 0
+DEBUG   |160220 14:22:02|Done dumping #__finder_filters
+DEBUG   |160220 14:22:02|----- Finished operation 20 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links
+DEBUG   |160220 14:22:02|Done dumping #__finder_links
+DEBUG   |160220 14:22:02|----- Finished operation 21 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_terms0
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_terms0
+DEBUG   |160220 14:22:02|----- Finished operation 22 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_terms1
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_terms1
+DEBUG   |160220 14:22:02|----- Finished operation 23 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_terms2
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_terms2
+DEBUG   |160220 14:22:02|----- Finished operation 24 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_terms3
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_terms3
+DEBUG   |160220 14:22:02|----- Finished operation 25 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_terms4
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_terms4
+DEBUG   |160220 14:22:02|----- Finished operation 26 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_terms5
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_terms5
+DEBUG   |160220 14:22:02|----- Finished operation 27 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_terms6
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_terms6
+DEBUG   |160220 14:22:02|----- Finished operation 28 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_terms7
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_terms7
+DEBUG   |160220 14:22:02|----- Finished operation 29 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_terms8
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_terms8
+DEBUG   |160220 14:22:02|----- Finished operation 30 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_terms9
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_terms9
+DEBUG   |160220 14:22:02|----- Finished operation 31 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_termsa
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_termsa
+DEBUG   |160220 14:22:02|----- Finished operation 32 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_termsb
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_termsb
+DEBUG   |160220 14:22:02|----- Finished operation 33 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_termsc
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_termsc
+DEBUG   |160220 14:22:02|----- Finished operation 34 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_termsd
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_termsd
+DEBUG   |160220 14:22:02|----- Finished operation 35 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_termse
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_termse
+DEBUG   |160220 14:22:02|----- Finished operation 36 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_links_termsf
+DEBUG   |160220 14:22:02|Done dumping #__finder_links_termsf
+DEBUG   |160220 14:22:02|----- Finished operation 37 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_taxonomy
+DEBUG   |160220 14:22:02|Done dumping #__finder_taxonomy
+DEBUG   |160220 14:22:02|----- Finished operation 38 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_taxonomy_map
+DEBUG   |160220 14:22:02|Done dumping #__finder_taxonomy_map
+DEBUG   |160220 14:22:02|----- Finished operation 39 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_terms
+DEBUG   |160220 14:22:02|Done dumping #__finder_terms
+DEBUG   |160220 14:22:02|----- Finished operation 40 ------
+DEBUG   |160220 14:22:02|Rows on #__finder_terms_common : 115
+INFO    |160220 14:22:02|Beginning dump of #__finder_terms_common
+DEBUG   |160220 14:22:02|Done dumping #__finder_terms_common
+DEBUG   |160220 14:22:02|----- Finished operation 41 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_tokens
+DEBUG   |160220 14:22:02|Done dumping #__finder_tokens
+DEBUG   |160220 14:22:02|----- Finished operation 42 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__finder_tokens_aggregate
+DEBUG   |160220 14:22:02|Done dumping #__finder_tokens_aggregate
+DEBUG   |160220 14:22:02|----- Finished operation 43 ------
+DEBUG   |160220 14:22:02|Rows on #__finder_types : 0
+DEBUG   |160220 14:22:02|Done dumping #__finder_types
+DEBUG   |160220 14:22:02|----- Finished operation 44 ------
+DEBUG   |160220 14:22:02|Rows on #__languages : 1
+INFO    |160220 14:22:02|Beginning dump of #__languages
+DEBUG   |160220 14:22:02|Done dumping #__languages
+DEBUG   |160220 14:22:02|----- Finished operation 45 ------
+DEBUG   |160220 14:22:02|Rows on #__menu : 97
+INFO    |160220 14:22:02|Beginning dump of #__menu
+DEBUG   |160220 14:22:02|Done dumping #__menu
+DEBUG   |160220 14:22:02|----- Finished operation 46 ------
+DEBUG   |160220 14:22:02|Rows on #__menu_types : 1
+INFO    |160220 14:22:02|Beginning dump of #__menu_types
+DEBUG   |160220 14:22:02|Done dumping #__menu_types
+DEBUG   |160220 14:22:02|----- Finished operation 47 ------
+DEBUG   |160220 14:22:02|Rows on #__messages : 0
+DEBUG   |160220 14:22:02|Done dumping #__messages
+DEBUG   |160220 14:22:02|----- Finished operation 48 ------
+DEBUG   |160220 14:22:02|Rows on #__messages_cfg : 0
+DEBUG   |160220 14:22:02|Done dumping #__messages_cfg
+DEBUG   |160220 14:22:02|----- Finished operation 49 ------
+DEBUG   |160220 14:22:02|Rows on #__modules : 30
+INFO    |160220 14:22:02|Beginning dump of #__modules
+DEBUG   |160220 14:22:02|Done dumping #__modules
+DEBUG   |160220 14:22:02|----- Finished operation 50 ------
+DEBUG   |160220 14:22:02|Rows on #__modules_menu : 60
+INFO    |160220 14:22:02|Beginning dump of #__modules_menu
+DEBUG   |160220 14:22:02|Done dumping #__modules_menu
+DEBUG   |160220 14:22:02|----- Finished operation 51 ------
+DEBUG   |160220 14:22:02|Rows on #__newsfeeds : 0
+DEBUG   |160220 14:22:02|Done dumping #__newsfeeds
+DEBUG   |160220 14:22:02|----- Finished operation 52 ------
+DEBUG   |160220 14:22:02|Rows on #__overrider : 0
+DEBUG   |160220 14:22:02|Done dumping #__overrider
+DEBUG   |160220 14:22:02|----- Finished operation 53 ------
+DEBUG   |160220 14:22:02|Rows on #__postinstall_messages : 6
+INFO    |160220 14:22:02|Beginning dump of #__postinstall_messages
+DEBUG   |160220 14:22:02|Done dumping #__postinstall_messages
+DEBUG   |160220 14:22:02|----- Finished operation 54 ------
+DEBUG   |160220 14:22:02|Rows on #__redirect_links : 0
+DEBUG   |160220 14:22:02|Done dumping #__redirect_links
+DEBUG   |160220 14:22:02|----- Finished operation 55 ------
+DEBUG   |160220 14:22:02|Rows on #__revslider_css : 43
+INFO    |160220 14:22:02|Beginning dump of #__revslider_css
+DEBUG   |160220 14:22:02|Done dumping #__revslider_css
+DEBUG   |160220 14:22:02|----- Finished operation 56 ------
+DEBUG   |160220 14:22:02|Rows on #__revslider_layer_animations : 0
+DEBUG   |160220 14:22:02|Done dumping #__revslider_layer_animations
+DEBUG   |160220 14:22:02|----- Finished operation 57 ------
+DEBUG   |160220 14:22:02|Rows on #__revslider_settings : 0
+DEBUG   |160220 14:22:02|Done dumping #__revslider_settings
+DEBUG   |160220 14:22:02|----- Finished operation 58 ------
+DEBUG   |160220 14:22:02|Rows on #__revslider_sliders : 4
+INFO    |160220 14:22:02|Beginning dump of #__revslider_sliders
+DEBUG   |160220 14:22:02|Writing 136471 bytes to the dump file
+DEBUG   |160220 14:22:02|Done dumping #__revslider_sliders
+DEBUG   |160220 14:22:02|----- Finished operation 59 ------
+DEBUG   |160220 14:22:02|Rows on #__revslider_slides : 6
+INFO    |160220 14:22:02|Beginning dump of #__revslider_slides
+DEBUG   |160220 14:22:02|Done dumping #__revslider_slides
+DEBUG   |160220 14:22:02|----- Finished operation 60 ------
+DEBUG   |160220 14:22:02|Rows on #__revslider_static_slides : 0
+DEBUG   |160220 14:22:02|Done dumping #__revslider_static_slides
+DEBUG   |160220 14:22:02|----- Finished operation 61 ------
+DEBUG   |160220 14:22:02|Rows on #__schemas : 2
+INFO    |160220 14:22:02|Beginning dump of #__schemas
+DEBUG   |160220 14:22:02|Done dumping #__schemas
+DEBUG   |160220 14:22:02|----- Finished operation 62 ------
+INFO    |160220 14:22:02|Skipping dumping data of #__session
+DEBUG   |160220 14:22:02|Done dumping #__session
+DEBUG   |160220 14:22:02|----- Finished operation 63 ------
+DEBUG   |160220 14:22:02|Rows on #__sppagebuilder : 22
+INFO    |160220 14:22:02|Beginning dump of #__sppagebuilder
+DEBUG   |160220 14:22:02|Writing 162135 bytes to the dump file
+DEBUG   |160220 14:22:02|Closing SQL dump file.
+DEBUG   |160220 14:22:02|Adding the SQL dump part to the archive
+DEBUG   |160220 14:22:02|-- Adding installation/sql/site.sql to archive (source: <root>/administrator/components/com_akeeba/backup/d170e78b.sql)
+DEBUG   |160220 14:22:02|Removing dump part's temporary file
+DEBUG   |160220 14:22:02|-- Removing temporary file d170e78b.sql
+DEBUG   |160220 14:22:02|Akeeba\Engine\Dump\Base :: Getting temporary file
+DEBUG   |160220 14:22:02|Akeeba\Engine\Dump\Base :: Temporary file is <root>/administrator/components/com_akeeba/backup/9daae3d9.sql
+DEBUG   |160220 14:22:02|AkeebaDomainDBBackup :: Creating new SQL dump part #1
+DEBUG   |160220 14:22:02|AkeebaDomainDBBackup :: SQL temp file is <root>/administrator/components/com_akeeba/backup/9daae3d9.sql
+DEBUG   |160220 14:22:02|AkeebaDomainDBBackup :: SQL file location in archive is installation/sql/site.s01
+DEBUG   |160220 14:22:02|Writing 142084 bytes to the dump file
+DEBUG   |160220 14:22:02|Done dumping #__sppagebuilder
+DEBUG   |160220 14:22:02|----- Finished operation 64 ------
+DEBUG   |160220 14:22:02|Rows on #__spsimpleportfolio_items : 8
+INFO    |160220 14:22:02|Beginning dump of #__spsimpleportfolio_items
+DEBUG   |160220 14:22:02|Done dumping #__spsimpleportfolio_items
+DEBUG   |160220 14:22:02|----- Finished operation 65 ------
+DEBUG   |160220 14:22:02|Rows on #__spsimpleportfolio_tags : 4
+INFO    |160220 14:22:02|Beginning dump of #__spsimpleportfolio_tags
+DEBUG   |160220 14:22:02|Done dumping #__spsimpleportfolio_tags
+DEBUG   |160220 14:22:02|----- Finished operation 66 ------
+DEBUG   |160220 14:22:02|Rows on #__tags : 8
+INFO    |160220 14:22:02|Beginning dump of #__tags
+DEBUG   |160220 14:22:02|Done dumping #__tags
+DEBUG   |160220 14:22:02|----- Finished operation 67 ------
+DEBUG   |160220 14:22:02|Rows on #__template_styles : 2
+INFO    |160220 14:22:02|Beginning dump of #__template_styles
+DEBUG   |160220 14:22:02|Done dumping #__template_styles
+DEBUG   |160220 14:22:02|----- Finished operation 68 ------
+DEBUG   |160220 14:22:02|Rows on #__ucm_base : 6
+INFO    |160220 14:22:02|Beginning dump of #__ucm_base
+DEBUG   |160220 14:22:02|Done dumping #__ucm_base
+DEBUG   |160220 14:22:02|----- Finished operation 69 ------
+DEBUG   |160220 14:22:02|Rows on #__ucm_content : 6
+INFO    |160220 14:22:02|Beginning dump of #__ucm_content
+DEBUG   |160220 14:22:02|Done dumping #__ucm_content
+DEBUG   |160220 14:22:02|----- Finished operation 70 ------
+DEBUG   |160220 14:22:02|Rows on #__ucm_history : 27
+INFO    |160220 14:22:02|Beginning dump of #__ucm_history
+DEBUG   |160220 14:22:02|Writing 134836 bytes to the dump file
+DEBUG   |160220 14:22:02|Done dumping #__ucm_history
+DEBUG   |160220 14:22:02|----- Finished operation 71 ------
+DEBUG   |160220 14:22:02|Rows on #__update_sites : 9
+INFO    |160220 14:22:02|Beginning dump of #__update_sites
+DEBUG   |160220 14:22:02|Done dumping #__update_sites
+DEBUG   |160220 14:22:02|----- Finished operation 72 ------
+DEBUG   |160220 14:22:02|Rows on #__update_sites_extensions : 10
+INFO    |160220 14:22:02|Beginning dump of #__update_sites_extensions
+DEBUG   |160220 14:22:02|Done dumping #__update_sites_extensions
+DEBUG   |160220 14:22:02|----- Finished operation 73 ------
+DEBUG   |160220 14:22:02|Rows on #__updates : 3
+INFO    |160220 14:22:02|Beginning dump of #__updates
+DEBUG   |160220 14:22:02|Done dumping #__updates
+DEBUG   |160220 14:22:02|----- Finished operation 74 ------
+DEBUG   |160220 14:22:02|Rows on #__user_keys : 0
+DEBUG   |160220 14:22:02|Done dumping #__user_keys
+DEBUG   |160220 14:22:02|----- Finished operation 75 ------
+DEBUG   |160220 14:22:02|Rows on #__user_notes : 0
+DEBUG   |160220 14:22:02|Done dumping #__user_notes
+DEBUG   |160220 14:22:02|----- Finished operation 76 ------
+DEBUG   |160220 14:22:02|Rows on #__user_profiles : 0
+DEBUG   |160220 14:22:02|Done dumping #__user_profiles
+DEBUG   |160220 14:22:02|----- Finished operation 77 ------
+DEBUG   |160220 14:22:02|Rows on #__user_usergroup_map : 1
+INFO    |160220 14:22:02|Beginning dump of #__user_usergroup_map
+DEBUG   |160220 14:22:02|Done dumping #__user_usergroup_map
+DEBUG   |160220 14:22:02|----- Finished operation 78 ------
+DEBUG   |160220 14:22:02|Rows on #__usergroups : 9
+INFO    |160220 14:22:02|Beginning dump of #__usergroups
+DEBUG   |160220 14:22:02|Done dumping #__usergroups
+DEBUG   |160220 14:22:02|----- Finished operation 79 ------
+DEBUG   |160220 14:22:02|Rows on #__users : 1
+INFO    |160220 14:22:02|Beginning dump of #__users
+DEBUG   |160220 14:22:02|Done dumping #__users
+DEBUG   |160220 14:22:02|----- Finished operation 80 ------
+DEBUG   |160220 14:22:02|Rows on #__viewlevels : 5
+INFO    |160220 14:22:02|Beginning dump of #__viewlevels
+DEBUG   |160220 14:22:02|Done dumping #__viewlevels
+DEBUG   |160220 14:22:02|----- Finished operation 81 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_akeeba_common : 3
+INFO    |160220 14:22:02|Beginning dump of o7wxd_akeeba_common
+DEBUG   |160220 14:22:02|Done dumping o7wxd_akeeba_common
+DEBUG   |160220 14:22:02|----- Finished operation 82 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_assets : 155
+INFO    |160220 14:22:02|Beginning dump of o7wxd_assets
+DEBUG   |160220 14:22:02|Done dumping o7wxd_assets
+DEBUG   |160220 14:22:02|----- Finished operation 83 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_associations : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_associations
+DEBUG   |160220 14:22:02|----- Finished operation 84 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_banner_clients : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_banner_clients
+DEBUG   |160220 14:22:02|----- Finished operation 85 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_banner_tracks : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_banner_tracks
+DEBUG   |160220 14:22:02|----- Finished operation 86 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_banners : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_banners
+DEBUG   |160220 14:22:02|----- Finished operation 87 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_categories : 8
+INFO    |160220 14:22:02|Beginning dump of o7wxd_categories
+DEBUG   |160220 14:22:02|Done dumping o7wxd_categories
+DEBUG   |160220 14:22:02|----- Finished operation 88 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_contact_details : 3
+INFO    |160220 14:22:02|Beginning dump of o7wxd_contact_details
+DEBUG   |160220 14:22:02|Done dumping o7wxd_contact_details
+DEBUG   |160220 14:22:02|----- Finished operation 89 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_content : 30
+INFO    |160220 14:22:02|Beginning dump of o7wxd_content
+DEBUG   |160220 14:22:02|Writing 179647 bytes to the dump file
+DEBUG   |160220 14:22:02|Closing SQL dump file.
+DEBUG   |160220 14:22:02|Adding the SQL dump part to the archive
+DEBUG   |160220 14:22:02|-- Adding installation/sql/site.s01 to archive (source: <root>/administrator/components/com_akeeba/backup/9daae3d9.sql)
+DEBUG   |160220 14:22:02|Removing dump part's temporary file
+DEBUG   |160220 14:22:02|-- Removing temporary file 9daae3d9.sql
+DEBUG   |160220 14:22:02|Akeeba\Engine\Dump\Base :: Getting temporary file
+DEBUG   |160220 14:22:02|Akeeba\Engine\Dump\Base :: Temporary file is <root>/administrator/components/com_akeeba/backup/8cb28e02.sql
+DEBUG   |160220 14:22:02|AkeebaDomainDBBackup :: Creating new SQL dump part #2
+DEBUG   |160220 14:22:02|AkeebaDomainDBBackup :: SQL temp file is <root>/administrator/components/com_akeeba/backup/8cb28e02.sql
+DEBUG   |160220 14:22:02|AkeebaDomainDBBackup :: SQL file location in archive is installation/sql/site.s02
+DEBUG   |160220 14:22:02|Done dumping o7wxd_content
+DEBUG   |160220 14:22:02|----- Finished operation 90 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_content_frontpage : 4
+INFO    |160220 14:22:02|Beginning dump of o7wxd_content_frontpage
+DEBUG   |160220 14:22:02|Done dumping o7wxd_content_frontpage
+DEBUG   |160220 14:22:02|----- Finished operation 91 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_content_rating : 2
+INFO    |160220 14:22:02|Beginning dump of o7wxd_content_rating
+DEBUG   |160220 14:22:02|Done dumping o7wxd_content_rating
+DEBUG   |160220 14:22:02|----- Finished operation 92 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_content_types : 15
+INFO    |160220 14:22:02|Beginning dump of o7wxd_content_types
+DEBUG   |160220 14:22:02|Done dumping o7wxd_content_types
+DEBUG   |160220 14:22:02|----- Finished operation 93 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_contentitem_tag_map : 2
+INFO    |160220 14:22:02|Beginning dump of o7wxd_contentitem_tag_map
+DEBUG   |160220 14:22:02|Done dumping o7wxd_contentitem_tag_map
+DEBUG   |160220 14:22:02|----- Finished operation 94 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_core_log_searches : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_core_log_searches
+DEBUG   |160220 14:22:02|----- Finished operation 95 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_djmt_albums : 7
+INFO    |160220 14:22:02|Beginning dump of o7wxd_djmt_albums
+DEBUG   |160220 14:22:02|Done dumping o7wxd_djmt_albums
+DEBUG   |160220 14:22:02|----- Finished operation 96 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_djmt_items : 14
+INFO    |160220 14:22:02|Beginning dump of o7wxd_djmt_items
+DEBUG   |160220 14:22:02|Done dumping o7wxd_djmt_items
+DEBUG   |160220 14:22:02|----- Finished operation 97 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_djmt_resmushit : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_djmt_resmushit
+DEBUG   |160220 14:22:02|----- Finished operation 98 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_djtabs_groups : 5
+INFO    |160220 14:22:02|Beginning dump of o7wxd_djtabs_groups
+DEBUG   |160220 14:22:02|Done dumping o7wxd_djtabs_groups
+DEBUG   |160220 14:22:02|----- Finished operation 99 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_djtabs_items : 17
+INFO    |160220 14:22:02|Beginning dump of o7wxd_djtabs_items
+DEBUG   |160220 14:22:02|Done dumping o7wxd_djtabs_items
+DEBUG   |160220 14:22:02|----- Finished operation 100 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_djtabs_themes : 12
+INFO    |160220 14:22:02|Beginning dump of o7wxd_djtabs_themes
+DEBUG   |160220 14:22:02|Done dumping o7wxd_djtabs_themes
+DEBUG   |160220 14:22:02|----- Finished operation 101 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_extensions : 163
+INFO    |160220 14:22:02|Beginning dump of o7wxd_extensions
+DEBUG   |160220 14:22:02|Writing 235556 bytes to the dump file
+DEBUG   |160220 14:22:02|Done dumping o7wxd_extensions
+DEBUG   |160220 14:22:02|----- Finished operation 102 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_filters : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_filters
+DEBUG   |160220 14:22:02|----- Finished operation 103 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links
+DEBUG   |160220 14:22:02|----- Finished operation 104 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_terms0 : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_terms0
+DEBUG   |160220 14:22:02|----- Finished operation 105 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_terms1 : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_terms1
+DEBUG   |160220 14:22:02|----- Finished operation 106 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_terms2 : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_terms2
+DEBUG   |160220 14:22:02|----- Finished operation 107 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_terms3 : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_terms3
+DEBUG   |160220 14:22:02|----- Finished operation 108 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_terms4 : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_terms4
+DEBUG   |160220 14:22:02|----- Finished operation 109 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_terms5 : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_terms5
+DEBUG   |160220 14:22:02|----- Finished operation 110 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_terms6 : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_terms6
+DEBUG   |160220 14:22:02|----- Finished operation 111 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_terms7 : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_terms7
+DEBUG   |160220 14:22:02|----- Finished operation 112 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_terms8 : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_terms8
+DEBUG   |160220 14:22:02|----- Finished operation 113 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_terms9 : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_terms9
+DEBUG   |160220 14:22:02|----- Finished operation 114 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_termsa : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_termsa
+DEBUG   |160220 14:22:02|----- Finished operation 115 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_termsb : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_termsb
+DEBUG   |160220 14:22:02|----- Finished operation 116 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_termsc : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_termsc
+DEBUG   |160220 14:22:02|----- Finished operation 117 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_termsd : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_termsd
+DEBUG   |160220 14:22:02|----- Finished operation 118 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_termse : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_termse
+DEBUG   |160220 14:22:02|----- Finished operation 119 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_links_termsf : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_links_termsf
+DEBUG   |160220 14:22:02|----- Finished operation 120 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_taxonomy : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_taxonomy
+DEBUG   |160220 14:22:02|----- Finished operation 121 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_taxonomy_map : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_taxonomy_map
+DEBUG   |160220 14:22:02|----- Finished operation 122 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_terms : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_terms
+DEBUG   |160220 14:22:02|----- Finished operation 123 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_terms_common : 115
+INFO    |160220 14:22:02|Beginning dump of o7wxd_finder_terms_common
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_terms_common
+DEBUG   |160220 14:22:02|----- Finished operation 124 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_tokens : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_tokens
+DEBUG   |160220 14:22:02|----- Finished operation 125 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_tokens_aggregate : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_tokens_aggregate
+DEBUG   |160220 14:22:02|----- Finished operation 126 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_finder_types : 5
+INFO    |160220 14:22:02|Beginning dump of o7wxd_finder_types
+DEBUG   |160220 14:22:02|Done dumping o7wxd_finder_types
+DEBUG   |160220 14:22:02|----- Finished operation 127 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_languages : 1
+INFO    |160220 14:22:02|Beginning dump of o7wxd_languages
+DEBUG   |160220 14:22:02|Done dumping o7wxd_languages
+DEBUG   |160220 14:22:02|----- Finished operation 128 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_menu : 104
+INFO    |160220 14:22:02|Beginning dump of o7wxd_menu
+DEBUG   |160220 14:22:02|Done dumping o7wxd_menu
+DEBUG   |160220 14:22:02|----- Finished operation 129 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_menu_types : 10
+INFO    |160220 14:22:02|Beginning dump of o7wxd_menu_types
+DEBUG   |160220 14:22:02|Done dumping o7wxd_menu_types
+DEBUG   |160220 14:22:02|----- Finished operation 130 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_messages : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_messages
+DEBUG   |160220 14:22:02|----- Finished operation 131 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_messages_cfg : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_messages_cfg
+DEBUG   |160220 14:22:02|----- Finished operation 132 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_modules : 85
+INFO    |160220 14:22:02|Beginning dump of o7wxd_modules
+DEBUG   |160220 14:22:02|Writing 163719 bytes to the dump file
+DEBUG   |160220 14:22:02|Done dumping o7wxd_modules
+DEBUG   |160220 14:22:02|----- Finished operation 133 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_modules_menu : 386
+INFO    |160220 14:22:02|Beginning dump of o7wxd_modules_menu
+DEBUG   |160220 14:22:02|Closing SQL dump file.
+DEBUG   |160220 14:22:02|Adding the SQL dump part to the archive
+DEBUG   |160220 14:22:02|-- Adding installation/sql/site.s02 to archive (source: <root>/administrator/components/com_akeeba/backup/8cb28e02.sql)
+DEBUG   |160220 14:22:02|Removing dump part's temporary file
+DEBUG   |160220 14:22:02|-- Removing temporary file 8cb28e02.sql
+DEBUG   |160220 14:22:02|Akeeba\Engine\Dump\Base :: Getting temporary file
+DEBUG   |160220 14:22:02|Akeeba\Engine\Dump\Base :: Temporary file is <root>/administrator/components/com_akeeba/backup/7a3cf8fa.sql
+DEBUG   |160220 14:22:02|AkeebaDomainDBBackup :: Creating new SQL dump part #3
+DEBUG   |160220 14:22:02|AkeebaDomainDBBackup :: SQL temp file is <root>/administrator/components/com_akeeba/backup/7a3cf8fa.sql
+DEBUG   |160220 14:22:02|AkeebaDomainDBBackup :: SQL file location in archive is installation/sql/site.s03
+DEBUG   |160220 14:22:02|Done dumping o7wxd_modules_menu
+DEBUG   |160220 14:22:02|----- Finished operation 134 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_newsfeeds : 0
+DEBUG   |160220 14:22:02|Done dumping o7wxd_newsfeeds
+DEBUG   |160220 14:22:02|----- Finished operation 135 ------
+DEBUG   |160220 14:22:02|Rows on o7wxd_overrider : 2858
+INFO    |160220 14:22:02|Beginning dump of o7wxd_overrider
+DEBUG   |160220 14:22:02|Writing 139315 bytes to the dump file
+DEBUG   |160220 14:22:02|----- Finished operation 136 ------
+INFO    |160220 14:22:02|Continuing dump of o7wxd_overrider from record #1000 using auto_increment column id and value 1000
+DEBUG   |160220 14:22:03|Writing 156501 bytes to the dump file
+DEBUG   |160220 14:22:03|----- Finished operation 137 ------
+INFO    |160220 14:22:03|Continuing dump of o7wxd_overrider from record #2000 using auto_increment column id and value 2000
+DEBUG   |160220 14:22:03|Writing 176215 bytes to the dump file
+DEBUG   |160220 14:22:03|Closing SQL dump file.
+DEBUG   |160220 14:22:03|Adding the SQL dump part to the archive
+DEBUG   |160220 14:22:03|-- Adding installation/sql/site.s03 to archive (source: <root>/administrator/components/com_akeeba/backup/7a3cf8fa.sql)
+DEBUG   |160220 14:22:03|Removing dump part's temporary file
+DEBUG   |160220 14:22:03|-- Removing temporary file 7a3cf8fa.sql
+DEBUG   |160220 14:22:03|Akeeba\Engine\Dump\Base :: Getting temporary file
+DEBUG   |160220 14:22:03|Akeeba\Engine\Dump\Base :: Temporary file is <root>/administrator/components/com_akeeba/backup/36939e63.sql
+DEBUG   |160220 14:22:03|AkeebaDomainDBBackup :: Creating new SQL dump part #4
+DEBUG   |160220 14:22:03|AkeebaDomainDBBackup :: SQL temp file is <root>/administrator/components/com_akeeba/backup/36939e63.sql
+DEBUG   |160220 14:22:03|AkeebaDomainDBBackup :: SQL file location in archive is installation/sql/site.s04
+DEBUG   |160220 14:22:03|Done dumping o7wxd_overrider
+DEBUG   |160220 14:22:03|----- Finished operation 138 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_postinstall_messages : 11
+INFO    |160220 14:22:03|Beginning dump of o7wxd_postinstall_messages
+DEBUG   |160220 14:22:03|Done dumping o7wxd_postinstall_messages
+DEBUG   |160220 14:22:03|----- Finished operation 139 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_redirect_links : 7
+INFO    |160220 14:22:03|Beginning dump of o7wxd_redirect_links
+DEBUG   |160220 14:22:03|Done dumping o7wxd_redirect_links
+DEBUG   |160220 14:22:03|----- Finished operation 140 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_schemas : 3
+INFO    |160220 14:22:03|Beginning dump of o7wxd_schemas
+DEBUG   |160220 14:22:03|Done dumping o7wxd_schemas
+DEBUG   |160220 14:22:03|----- Finished operation 141 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_session : 4
+INFO    |160220 14:22:03|Beginning dump of o7wxd_session
+DEBUG   |160220 14:22:03|Done dumping o7wxd_session
+DEBUG   |160220 14:22:03|----- Finished operation 142 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_tags : 5
+INFO    |160220 14:22:03|Beginning dump of o7wxd_tags
+DEBUG   |160220 14:22:03|Done dumping o7wxd_tags
+DEBUG   |160220 14:22:03|----- Finished operation 143 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_template_styles : 8
+INFO    |160220 14:22:03|Beginning dump of o7wxd_template_styles
+DEBUG   |160220 14:22:03|Done dumping o7wxd_template_styles
+DEBUG   |160220 14:22:03|----- Finished operation 144 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_ucm_base : 1
+INFO    |160220 14:22:03|Beginning dump of o7wxd_ucm_base
+DEBUG   |160220 14:22:03|Done dumping o7wxd_ucm_base
+DEBUG   |160220 14:22:03|----- Finished operation 145 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_ucm_content : 1
+INFO    |160220 14:22:03|Beginning dump of o7wxd_ucm_content
+DEBUG   |160220 14:22:03|Done dumping o7wxd_ucm_content
+DEBUG   |160220 14:22:03|----- Finished operation 146 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_ucm_history : 0
+DEBUG   |160220 14:22:03|Done dumping o7wxd_ucm_history
+DEBUG   |160220 14:22:03|----- Finished operation 147 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_update_sites : 7
+INFO    |160220 14:22:03|Beginning dump of o7wxd_update_sites
+DEBUG   |160220 14:22:03|Done dumping o7wxd_update_sites
+DEBUG   |160220 14:22:03|----- Finished operation 148 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_update_sites_extensions : 7
+INFO    |160220 14:22:03|Beginning dump of o7wxd_update_sites_extensions
+DEBUG   |160220 14:22:03|Done dumping o7wxd_update_sites_extensions
+DEBUG   |160220 14:22:03|----- Finished operation 149 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_updates : 2
+INFO    |160220 14:22:03|Beginning dump of o7wxd_updates
+DEBUG   |160220 14:22:03|Done dumping o7wxd_updates
+DEBUG   |160220 14:22:03|----- Finished operation 150 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_user_keys : 0
+DEBUG   |160220 14:22:03|Done dumping o7wxd_user_keys
+DEBUG   |160220 14:22:03|----- Finished operation 151 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_user_notes : 0
+DEBUG   |160220 14:22:03|Done dumping o7wxd_user_notes
+DEBUG   |160220 14:22:03|----- Finished operation 152 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_user_profiles : 0
+DEBUG   |160220 14:22:03|Done dumping o7wxd_user_profiles
+DEBUG   |160220 14:22:03|----- Finished operation 153 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_user_usergroup_map : 1
+INFO    |160220 14:22:03|Beginning dump of o7wxd_user_usergroup_map
+DEBUG   |160220 14:22:03|Done dumping o7wxd_user_usergroup_map
+DEBUG   |160220 14:22:03|----- Finished operation 154 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_usergroups : 9
+INFO    |160220 14:22:03|Beginning dump of o7wxd_usergroups
+DEBUG   |160220 14:22:03|Done dumping o7wxd_usergroups
+DEBUG   |160220 14:22:03|----- Finished operation 155 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_users : 1
+INFO    |160220 14:22:03|Beginning dump of o7wxd_users
+DEBUG   |160220 14:22:03|Done dumping o7wxd_users
+DEBUG   |160220 14:22:03|----- Finished operation 156 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_viewlevels : 5
+INFO    |160220 14:22:03|Beginning dump of o7wxd_viewlevels
+DEBUG   |160220 14:22:03|Done dumping o7wxd_viewlevels
+DEBUG   |160220 14:22:03|----- Finished operation 157 ------
+DEBUG   |160220 14:22:03|Rows on o7wxd_weblinks : 0
+DEBUG   |160220 14:22:03|Done dumping o7wxd_weblinks
+INFO    |160220 14:22:03|End of database detected; flushing the dump buffers...
+DEBUG   |160220 14:22:03|Writing 125487 bytes to the dump file
+INFO    |160220 14:22:03|Database has been successfully dumped to SQL file(s)
+DEBUG   |160220 14:22:03|----- Finished operation 158 ------
+DEBUG   |160220 14:22:03|Adding any extra SQL statements imposed by the filters
+DEBUG   |160220 14:22:03|Closing SQL dump file.
+DEBUG   |160220 14:22:03|Adding the final SQL dump to the archive
+DEBUG   |160220 14:22:03|-- Adding installation/sql/site.s04 to archive (source: <root>/administrator/components/com_akeeba/backup/36939e63.sql)
+DEBUG   |160220 14:22:03|Removing temporary file of final SQL dump
+DEBUG   |160220 14:22:03|-- Removing temporary file 36939e63.sql
+DEBUG   |160220 14:22:03|Akeeba\Engine\Core\Domain\Db :: No more databases left to iterate
+DEBUG   |160220 14:22:03|----- Finished operation 159 ------
+DEBUG   |160220 14:22:03|Akeeba\Engine\Core\Domain\DbAkeebaCUBEDomainDBBackup :: Creating databases.ini data
+DEBUG   |160220 14:22:03|Akeeba\Engine\Core\Domain\Db :: Creating databases.ini
+DEBUG   |160220 14:22:03|Akeeba\Engine\Core\Domain\Db :: Writing databases.ini contents
+DEBUG   |160220 14:22:03|-- Adding installation/sql/databases.ini to archive (virtual data)
+DEBUG   |160220 14:22:03|----- Finished operation 160 ------
+DEBUG   |160220 14:22:03|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Db
+DEBUG   |160220 14:22:03|Kettenrad :: Domain 'PackDB' has finished.
+DEBUG   |160220 14:22:03|====== Finished Step number 6 ======
+DEBUG   |160220 14:22:03|*** Engine steps batching: Break flag detected.
+DEBUG   |160220 14:22:03|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160220 14:22:03|Sleeping for 262.1111869812 msec, using usleep()
+DEBUG   |160220 14:22:03|Saving Kettenrad instance backend
+DEBUG   |160220 14:22:03|Kettenrad :: Attempting to load from database (backend) [backend.id5]
+DEBUG   |160220 14:22:03| -- Loaded stored Akeeba Factory (backend) [backend.id5]
+DEBUG   |160220 14:22:03|====== Starting Step number 7 ======
+DEBUG   |160220 14:22:03|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |160220 14:22:03|Akeeba\Engine\Core\Domain\Pack :: new instance
+DEBUG   |160220 14:22:03|Akeeba\Engine\Core\Domain\Pack :: Starting _prepare()
+DEBUG   |160220 14:22:03|Akeeba\Engine\Core\Domain\Pack :: Getting directory inclusion filters
+DEBUG   |160220 14:22:03|Akeeba\Engine\Core\Domain\Pack :: prepared
+DEBUG   |160220 14:22:03|----- Finished operation 1 ------
+DEBUG   |160220 14:22:03|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Pack
+DEBUG   |160220 14:22:03|====== Finished Step number 7 ======
+DEBUG   |160220 14:22:03|*** Engine steps batching: Break flag detected.
+DEBUG   |160220 14:22:03|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160220 14:22:03|Sleeping for 1959.9709510803 msec, using usleep()
+DEBUG   |160220 14:22:05|Saving Kettenrad instance backend
+DEBUG   |160220 14:22:06|Kettenrad :: Attempting to load from database (backend) [backend.id5]
+DEBUG   |160220 14:22:06| -- Loaded stored Akeeba Factory (backend) [backend.id5]
+DEBUG   |160220 14:22:06|====== Starting Step number 8 ======
+INFO    |160220 14:22:06|Scanning files of <root>
+DEBUG   |160220 14:22:06|----- Finished operation 1 ------
+DEBUG   |160220 14:22:06|Packing files
+DEBUG   |160220 14:22:06|-- Adding htaccess.txt to archive (source: <root>/htaccess.txt)
+DEBUG   |160220 14:22:06|-- Adding configuration.php to archive (source: <root>/configuration.php)
+DEBUG   |160220 14:22:06|-- Adding web.config.txt to archive (source: <root>/web.config.txt)
+DEBUG   |160220 14:22:06|-- Adding .ftpquota to archive (source: <root>/.ftpquota)
+DEBUG   |160220 14:22:06|-- Adding README.txt to archive (source: <root>/README.txt)
+DEBUG   |160220 14:22:06|-- Adding index.php to archive (source: <root>/index.php)
+DEBUG   |160220 14:22:06|-- Adding LICENSE.txt to archive (source: <root>/LICENSE.txt)
+INFO    |160220 14:22:06|Breaking step _before_ large file: <root>/probusiness_kickstart_package.zip - size: 64708398
+DEBUG   |160220 14:22:06|----- Finished operation 2 ------
+DEBUG   |160220 14:22:06|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Pack
+DEBUG   |160220 14:22:06|====== Finished Step number 8 ======
+DEBUG   |160220 14:22:06|*** Engine steps batching: Break flag detected.
+DEBUG   |160220 14:22:06|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160220 14:22:06|Sleeping for 1968.0991172791 msec, using usleep()
+DEBUG   |160220 14:22:08|Saving Kettenrad instance backend
+DEBUG   |160220 14:22:08|Kettenrad :: Attempting to load from database (backend) [backend.id5]
+DEBUG   |160220 14:22:08| -- Loaded stored Akeeba Factory (backend) [backend.id5]
+DEBUG   |160220 14:22:08|====== Starting Step number 9 ======
+DEBUG   |160220 14:22:08|Packing files
+DEBUG   |160220 14:22:08|-- Adding probusiness_kickstart_package.zip to archive (source: <root>/probusiness_kickstart_package.zip)
+INFO    |160220 14:22:20|Breaking step *after* large file: <root>/probusiness_kickstart_package.zip - size: 64708398
+DEBUG   |160220 14:22:20|----- Finished operation 1 ------
+DEBUG   |160220 14:22:20|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Pack
+DEBUG   |160220 14:22:20|====== Finished Step number 9 ======
+DEBUG   |160220 14:22:20|*** Engine steps batching: Break flag detected.
+DEBUG   |160220 14:22:20|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160220 14:22:20|No need to sleep; execution time: 12453.79114151 msec; min. exec. time: 2000 msec
+DEBUG   |160220 14:22:20|Saving Kettenrad instance backend
+DEBUG   |160220 14:22:21|Kettenrad :: Attempting to load from database (backend) [backend.id5]
+DEBUG   |160220 14:22:21| -- Loaded stored Akeeba Factory (backend) [backend.id5]
+DEBUG   |160220 14:22:21|====== Starting Step number 10 ======
+DEBUG   |160220 14:22:21|Continuing file packing from previous step
+DEBUG   |160220 14:22:21|-- Adding  to archive (source: )
+DEBUG   |160220 14:22:33|----- Finished operation 1 ------
+DEBUG   |160220 14:22:33|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Pack
+DEBUG   |160220 14:22:33|====== Finished Step number 10 ======
+DEBUG   |160220 14:22:33|*** Engine steps batching: Break flag detected.
+DEBUG   |160220 14:22:33|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160220 14:22:33|No need to sleep; execution time: 12116.165876389 msec; min. exec. time: 2000 msec
+DEBUG   |160220 14:22:33|Saving Kettenrad instance backend
+DEBUG   |160220 14:22:34|Kettenrad :: Attempting to load from database (backend) [backend.id5]
+DEBUG   |160220 14:22:34| -- Loaded stored Akeeba Factory (backend) [backend.id5]
+DEBUG   |160220 14:22:34|====== Starting Step number 11 ======
+DEBUG   |160220 14:22:34|Continuing file packing from previous step
+DEBUG   |160220 14:22:34|-- Adding  to archive (source: )
+DEBUG   |160220 14:22:46|----- Finished operation 1 ------
+DEBUG   |160220 14:22:46|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Pack
+DEBUG   |160220 14:22:46|====== Finished Step number 11 ======
+DEBUG   |160220 14:22:46|*** Engine steps batching: Break flag detected.
+DEBUG   |160220 14:22:46|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160220 14:22:46|No need to sleep; execution time: 11992.10190773 msec; min. exec. time: 2000 msec
+DEBUG   |160220 14:22:46|Saving Kettenrad instance backend
+DEBUG   |160220 14:22:47|Kettenrad :: Attempting to load from database (backend) [backend.id5]
+DEBUG   |160220 14:22:47| -- Loaded stored Akeeba Factory (backend) [backend.id5]
+DEBUG   |160220 14:22:47|====== Starting Step number 12 ======
+DEBUG   |160220 14:22:47|Continuing file packing from previous step
+DEBUG   |160220 14:22:47|-- Adding  to archive (source: )
+DEBUG   |160220 14:23:04|----- Finished operation 1 ------
+DEBUG   |160220 14:23:04|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Pack
+DEBUG   |160220 14:23:04|====== Finished Step number 12 ======
+DEBUG   |160220 14:23:04|*** Engine steps batching: Break flag detected.
+DEBUG   |160220 14:23:04|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160220 14:23:04|No need to sleep; execution time: 16590.106010437 msec; min. exec. time: 2000 msec
+DEBUG   |160220 14:23:04|Saving Kettenrad instance backend
+DEBUG   |160220 14:23:04|Kettenrad :: Attempting to load from database (backend) [backend.id5]
+DEBUG   |160220 14:23:04| -- Loaded stored Akeeba Factory (backend) [backend.id5]
+DEBUG   |160220 14:23:04|====== Starting Step number 13 ======
+DEBUG   |160220 14:23:04|Continuing file packing from previous step
+DEBUG   |160220 14:23:04|-- Adding  to archive (source: )
+DEBUG   |160220 14:23:16|----- Finished operation 1 ------
+DEBUG   |160220 14:23:16|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Pack
+DEBUG   |160220 14:23:16|====== Finished Step number 13 ======
+DEBUG   |160220 14:23:16|*** Engine steps batching: Break flag detected.
+DEBUG   |160220 14:23:16|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160220 14:23:16|No need to sleep; execution time: 12137.037992477 msec; min. exec. time: 2000 msec
+DEBUG   |160220 14:23:16|Saving Kettenrad instance backend
+DEBUG   |160220 14:23:17|Kettenrad :: Attempting to load from database (backend) [backend.id5]
+DEBUG   |160220 14:23:17| -- Loaded stored Akeeba Factory (backend) [backend.id5]
+DEBUG   |160220 14:23:17|====== Starting Step number 14 ======
+DEBUG   |160220 14:23:17|Continuing file packing from previous step
+DEBUG   |160220 14:23:17|-- Adding  to archive (source: )
+DEBUG   |160220 14:23:28|----- Finished operation 1 ------
+DEBUG   |160220 14:23:28|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Pack
+DEBUG   |160220 14:23:28|====== Finished Step number 14 ======
+DEBUG   |160220 14:23:28|*** Engine steps batching: Break flag detected.
+DEBUG   |160220 14:23:28|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160220 14:23:28|No need to sleep; execution time: 10978.325843811 msec; min. exec. time: 2000 msec
+DEBUG   |160220 14:23:28|Saving Kettenrad instance backend

@@ -1,0 +1,104 @@
+a:4:{s:4:"root";s:84:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/presets.less";s:8:"compiled";s:2020:"a {
+  color: #ff6e01;
+}
+a:hover {
+  color: #cd5800;
+}
+.sp-megamenu-parent >li.active>a,
+.sp-megamenu-parent >li:hover>a {
+  color: #6f797a;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+  color: #ff6e01;
+  border-left: 2px solid #ff6e01;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active>a {
+  color: #ff6e01;
+}
+#offcanvas-toggler >i {
+  color: #000000;
+}
+#offcanvas-toggler >i:hover {
+  color: #ff6e01;
+}
+ul.social-icons >li a:hover {
+  color: #ff6e01;
+}
+.sp-page-title {
+  background: #ff6e01;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a {
+  color: #000000;
+}
+.sp-module ul >li >a:hover {
+  color: #ff6e01;
+}
+.sp-module .latestnews >div >a {
+  color: #000000;
+}
+.sp-module .latestnews >div >a:hover {
+  color: #ff6e01;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #ff6e01;
+}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+  background: #ff6e01;
+}
+.search .btn-toolbar button {
+  background: #ff6e01;
+}
+.voting-symbol span.star.active:before {
+  color: #ff6e01;
+}
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before {
+  color: #cd5800;
+}
+.entry-link,
+.entry-quote {
+  background: #ff6e01;
+}
+blockquote {
+  border-color: #ff6e01;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #ff6e01;
+}
+#sp-footer {
+  background: #ff6e01;
+}
+.sp-comingsoon body {
+  background-color: #ff6e01;
+}
+.pagination>li>a,
+.pagination>li>span {
+  color: #000000;
+}
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  color: #000000;
+}
+.pagination>.active>a,
+.pagination>.active>span {
+  border-color: #ff6e01;
+  background-color: #ff6e01;
+}
+.pagination>.active>a:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:hover,
+.pagination>.active>span:focus {
+  border-color: #ff6e01;
+  background-color: #ff6e01;
+}
+.presets .sppb-addon-feature i {
+  background-color: #ff6e01;
+}
+";s:5:"files";a:15:{s:93:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/legacy/bootstrap.less";i:1439321742;s:93:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/legacy/variables.less";i:1439321742;s:90:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/legacy/mixins.less";i:1439321742;s:88:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/legacy/grid.less";i:1439321742;s:89:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/legacy/forms.less";i:1439321742;s:89:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/legacy/wells.less";i:1439321742;s:93:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/legacy/accordion.less";i:1439321742;s:111:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/legacy/responsive-767px-max.joomla.less";i:1439321742;s:83:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/master.less";i:1439321742;s:86:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/variables.less";i:1439321742;s:83:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/mixins.less";i:1439321742;s:84:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/icomoon.less";i:1439321742;s:81:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/menu.less";i:1439321742;s:82:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/theme.less";i:1439321742;s:84:"/home/lunglinh/public_html/dietvirusbkav.com/templates/probusiness/less/presets.less";i:1439321742;}s:7:"updated";i:1456314808;}

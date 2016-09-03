@@ -1,0 +1,208 @@
+/* 
+    Document   : post
+    Created on : 07.09.2012, 20:57:51
+    Author     : 3po
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* ablog_content_post is the main div*/
+#post h2{
+    border: 0;
+}
+div#ablog_content_post #post {
+    border: none;
+    margin-bottom: 50px;
+}
+
+#ablog_content_textarea{
+	height: 200px;
+}
+
+
+/*Comments*/
+.comments {
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.comments h3 {
+    font-size: 1.0em;
+}
+
+.comments_inner{
+    margin-left: 20px;
+    border-bottom: 1px dotted #F39A00;
+}
+
+#fb-share-button{
+    display: inline-block;
+}
+
+#facebook_button{
+	float: left;
+}
+
+.fb-like span{
+    width: 450px !important;
+}
+
+.twitter-share-button{
+    display: inline-block;
+    float: left;
+}
+
+.g-plusone{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#form td{
+    background: none;
+}
+
+/*Comment Answer*/
+p.answer {
+    clear: both;
+    text-align: right;
+}
+
+.comment_answers {
+    margin-left: 80px;
+    border-bottom: 1px dotted #F39A00;
+}
+
+.comment_image{
+    border-radius: 2px;
+}
+
+.personal_data p {
+    font-size: 0.8em;
+}
+
+/*Form*/
+#ablog_content_post #form {
+    background-color: #F39A00;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#form table{
+    border: none !important;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.avPlayerWrapper .avPlayerContainer{
+    margin: 0;
+}
+
+#content{
+    padding: 5px 1px;
+}
+
+tr td.td_class{
+    border-style: none;
+}
+
+#form tr,#form td{
+    border: none;
+}
+
+
+input[type="text"]{
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+input#creator,input#email_adress{
+    height: 28px;
+}
+
+#creator:focus,#content:focus, #email_adress:focus{
+    border: 1px solid black;
+}
+
+button {
+    background: #F39A00;
+    padding: 5px;
+    color: white;
+    border: 0;
+    border-radius: 2px;
+}
+
+#submit_button{
+    background: #76BF00;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+#preview_edit em{
+    color: #ccc;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* top or down social media*/
+.social_media{
+    float: right;
+    width: 160px;
+    top: 0px;
+    position: relative;
+}
+
+#calendar_img i.icon-calendar{
+    background: url(../images/icon-calendar.png);
+    width: 32px;
+    height: 16px;
+}
+
+.pagination_center{
+    text-align: left;
+}
+
+#post .pagination_limitbox{
+    float: left;
+}
+
+#post .pagination{
+    margin: 0;
+}
+
+#post #comlimit, #post #comanslimit{
+    margin-right: 10px;
+}
+
+#post h4{
+    font-size: 0.8em;
+    margin-bottom: 2px;
+}
+
+.form_errors{
+    color: red;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#published_options{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#back_button{
+    margin-top: 10px;
+}
+#publish_start_img,
+#publish_stop_img,
+#publish_stop_img .ablog-calendar i,
+#publish_start_img .ablog-calendar i{
+	 background: url('../images/icon-calendar.png') no-repeat center center;
+	 width: 16px;
+	 height: 16px;
+	 border: none;
+}

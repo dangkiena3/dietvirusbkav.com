@@ -1,0 +1,214 @@
+/* 
+    Document   : posts
+    Created on : 07.09.2012, 20:49:05
+    Author     : 3po
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*margin reset uls*/
+#main_ablog #ablog_pagination{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+#main_ablog #ablog_menu li{
+    list-style: none;
+}
+
+
+#facebook_button{
+	float: left;
+	padding-top: 5px;
+}
+
+#main_ablog #menu_image_ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.fb-like span{
+    width: 450px !important;
+}
+
+.twitter-share-button{
+    float: left;
+}
+
+#main_ablog #menu_image_ul a{
+    display: block;
+}
+
+
+
+#main_ablog #menu_image_ul li{
+   display: inline;
+}
+
+/*MENU*/
+#main_ablog #menu_image ul a,
+#main_ablog #ablog_menu a{
+    text-decoration: none;
+    display: block;
+}
+
+#main_ablog li#menu_image a,
+#main_ablog #ablog_menu,
+#main_ablog #ablog_menu li,
+#main_ablog #ablog_menu a
+{
+    height: 32px;   
+}
+
+#main_ablog #ablog_menu li{
+    float: left;
+}
+
+#main_ablog #ablog_menu a{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 32px;
+}
+
+/*+++++++++++ ablog menu background image ++++++++++++++++++*/
+#main_ablog li#menu_image a{
+     background: url('../images/white_house.png') no-repeat center center;
+     width: 32px;
+     float: left;
+     display: block;
+}
+
+/****************************************************************/
+
+#main_ablog #message{   
+    color: red;
+    background: none;
+    font-weight: bold;
+    background: none;
+}
+
+
+
+/********************** main ablog **********************/
+#main_ablog{
+    clear: both;
+}
+
+
+
+#main_ablog .ablog_content_container{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#main_ablog .ablog_content_container h2{
+   border: 0;
+}
+
+/*container*/
+#main_ablog .ablog_content_container .main{
+    position: relative;
+    width: 100%;
+}
+
+
+
+div#main_ablog .ablog_content_container .first_main_p {
+   margin: 0;
+   padding: 0;
+}
+
+
+/* container socialmedia */
+#main_ablog .ablog_content_container .social_media {
+    border: none;
+    width: 160px;
+    float: right;
+    position: relative;
+    z-index: 2;
+}
+
+
+/*pagination*/
+#ablog_pagination ul{
+    list-style: none;
+    font-weight: bold;
+
+}
+
+#ablog_pagination ul li {
+    float: left;
+    padding-right: 5px;
+}
+
+#ablog_pagination ul li {
+    float: left;
+    padding-right: 10px;
+    height: 32px;
+    list-style: none;
+}
+
+#ablog_pagination ul li a, #ablog_pagination ul li span {
+    float: left;
+    width: 32px;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+}
+
+#ablog_pagination ul li.active a{
+    text-decoration: underline;
+}
+/*clearfix*/
+.clearfix{display: block;}
+
+.clearfix:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    content: ".";
+}
+
+/* IE7 */
+*+ html .clearfix {display: inline-block;}
+
+/* IE6 */
+* html .clearfix {
+    display: inline-block;
+    height: 1%;
+}
+
+.form_errors{
+    color: red;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#published_options{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#submit_button{
+    background: #76BF00;
+}
+ 
+.clearfloat{
+    clear: both;
+}
+#publish_stop_img,
+#publish_stop_img i,
+#publish_start_img,
+#publish_start_img i{
+	 background: url('../images/icon-calendar.png') no-repeat center center;
+	 width: 16px;
+	 height: 16px;
+	 border: none;
+}

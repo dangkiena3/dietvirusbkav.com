@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+ lang="en" dir="ltr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Blog Factory    [the Factory Wiki]
+  </title>
+
+  <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="index,follow"/>
+<meta name="date" content="2014-12-29T15:05:19+0000"/>
+<meta name="keywords" content="joomla30,blogfactory,blogfactory"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="the Factory Wiki"/>
+<link rel="start" href="/"/>
+<link rel="contents" href="/doku.php?id=joomla30:blogfactory:blogfactory&amp;do=index" title="Sitemap"/>
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Current Namespace" href="/feed.php?mode=list&amp;ns=joomla30:blogfactory"/>
+<link rel="alternate" type="text/html" title="Plain HTML" href="/doku.php?do=export_xhtml&amp;id=joomla30:blogfactory:blogfactory"/>
+<link rel="canonical" href="http://wiki.thephpfactory.com/doku.php?id=joomla30:blogfactory:blogfactory"/>
+<link rel="stylesheet" media="screen" type="text/css" href="/lib/exe/css.php?t=thephpfactory&amp;tseed=1436260516"/>
+<link rel="stylesheet" media="all" type="text/css" href="/lib/exe/css.php?s=all&amp;t=thephpfactory&amp;tseed=1436260516"/>
+<link rel="stylesheet" media="print" type="text/css" href="/lib/exe/css.php?s=print&amp;t=thephpfactory&amp;tseed=1436260516"/>
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+var NS='joomla30:blogfactory';var JSINFO = {"id":"joomla30:blogfactory:blogfactory","namespace":"joomla30:blogfactory"};
+//--><!]]></script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/js.php?tseed=1436260516"></script>
+  <link rel="shortcut icon" href="/lib/tpl/thephpfactory/images/favicon.ico" />
+<link rel="apple-touch-icon" href="/lib/tpl/thephpfactory/images/apple-touch-icon.png" />
+
+  
+  <link href="http://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26880402-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<div class="dokuwiki">
+  
+  <div class="stylehead">
+<!-- Header444 -->
+    <div class="header">
+      <div class="pagename">
+		<a  href="http://wiki.thephpfactory.com" title="Home"><img src="/lib/tpl/thephpfactory/images/logo_wiki.png" alt="Logo" width="" height="80" /></a>
+      </div>
+      <div class="logo">
+		<a  href="http://thephpfactory.com/joomla-components-and-modules" title="thePHPfactory"><img src="/lib/tpl/thephpfactory/images/back_logo.png" alt="Back" width="" height="80" /></a>
+      </div>
+
+      <div class="clearer"></div>
+    </div>
+
+    
+    <div class="bar" id="bar__top">
+      <div class="bar-left" id="bar__topleft">
+                		<span class="bchead">You are here: </span><a href="/doku.php?id=home" class="wikilink1" title="home">Documentation for thePHPfactory Joomla Extensions</a> &raquo; <a href="/doku.php?id=joomla30:home" class="wikilink1" title="joomla30:home">Joomla 3.0</a> &raquo; <span class="curid"><a href="/doku.php?id=joomla30:blogfactory:blogfactory" class="wikilink1" title="joomla30:blogfactory:blogfactory">Blog Factory</a></span>      </div>
+
+      <div class="bar-right" id="bar__topright">
+                <form action="/doku.php" accept-charset="utf-8" class="search" id="dw__search" method="get"><div class="no"><input type="hidden" name="do" value="search" /><input type="text" id="qsearch__in" accesskey="f" name="id" class="edit" title="[F]" /><input type="submit" value="Search" class="button" title="Search" /><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>&nbsp;
+      </div>
+
+      <div class="clearer"></div>
+    </div>
+
+        <div class="breadcrumbs">
+                </div>
+    
+
+
+  </div>
+  
+  
+  <div class="page">
+    <!-- wikipage start -->
+    
+<h3 class="sectionedit1"><a name="blog_factory" id="blog_factory">Blog Factory</a></h3>
+<div class="level3">
+
+<p>
+<br/>
+
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="/doku.php?id=joomla30:blogfactory:installing" class="wikilink1" title="joomla30:blogfactory:installing">Blog Factory - Installing &amp; Uninstalling</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php?id=joomla30:blogfactory:settings" class="wikilink1" title="joomla30:blogfactory:settings">Blog Factory - Configuration</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php?id=joomla30:blogfactory:bookmarks#bookmarks" class="wikilink1" title="joomla30:blogfactory:bookmarks">Blog Factory - Bookmarks</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php?id=joomla30:blogfactory:integration" class="wikilink1" title="joomla30:blogfactory:integration">Blog Factory - Integrations</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php?id=joomla30:blogfactory:modules" class="wikilink1" title="joomla30:blogfactory:modules"> Blog Factory - Modules</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="/doku.php?id=joomla30:blogfactory:user_guide" class="wikilink1" title="joomla30:blogfactory:user_guide"> Blog Factory - User Guide</a></div>
+</li>
+</ul>
+
+</div>
+
+    <!-- wikipage stop -->
+  </div>
+
+  <div class="clearer"></div>
+
+  
+  <div class="stylefoot">
+
+    <div class="meta">
+      <div class="user">
+              </div>
+	      </div>
+
+   
+    <div class="bar" id="bar__bottom">
+      <div class="bar-left" id="bar__bottomleft">
+                              </div>
+      <div class="bar-right" id="bar__bottomright">
+                                        <form class="button btn_login" method="get" action="/doku.php"><div class="no"><input type="hidden" name="do" value="login" /><input type="hidden" name="sectok" value="d8e8bf3fc33dc288caf7729c759f9242" /><input type="hidden" name="id" value="joomla30:blogfactory:blogfactory" /><input type="submit" value="Login" class="button" title="Login" /></div></form>        <form class="button btn_index" method="get" action="/doku.php"><div class="no"><input type="hidden" name="do" value="index" /><input type="hidden" name="id" value="joomla30:blogfactory:blogfactory" /><input type="submit" value="Sitemap" class="button" accesskey="x" title="Sitemap [X]" /></div></form>        <a class="nolink" href="#dokuwiki__top"><input type="button" class="button" value="Back to top" onclick="window.scrollTo(0, 0)" title="Back to top" /></a>&nbsp;
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+  </div>
+
+  
+</div>
+
+<div class="no"><img src="/lib/exe/indexer.php?id=joomla30%3Ablogfactory%3Ablogfactory&amp;1456327014" width="2" height="1" alt="" /></div>
+</body>
+</html>

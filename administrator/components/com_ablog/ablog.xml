@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>COM_ABLOG</name>
+    <author>Christoph Wardzinski</author>
+    <creationDate>29 May 2014</creationDate>
+    <copyright>(C)2012 Open Source Matters. All rights reserved.
+    </copyright>
+    <license>GNU General Public License version 2 or later; see
+        LICENSE.txt</license>
+    <authorEmail>info@webhomeschool.de</authorEmail>
+    <authorUrl>www.webhomeschool.de</authorUrl>
+    <version>1.2.0</version>
+    <description>a Simple to use ABlog Component for Joomla3.</description>
+
+    <install> <!-- Runs on install -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+
+    <files folder="site">
+        <folder>assets</folder>
+        <folder>language</folder>
+        <folder>models</folder>
+        <folder>views</folder>
+        <folder>helpers</folder>
+        <filename>ablog.php</filename>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>router.php</filename>
+    </files>
+    <administration>
+        <menu img="class:ablog">COM_ABLOG_MENU</menu>
+        <submenu>
+                <!--Note that all & must be escaped to &amp; for the file to be valid
+                XML and be parsed by the installer-->
+            <menu link="option=com_ablog" view="cpanel" img="class:ablog"
+                alt="aBlog/Cpanel">COM_ABLOG_SUB_CPANEL</menu>
+            <menu link="option=com_ablog&amp;act=blog_categories"
+                view="blog_categories" alt="aBlog/Categories" img="class:ablog-" >COM_ABLOG_SUB_CATEGORIES</menu>
+            <menu link="option=com_ablog&amp;act=posts" view="posts"
+                 alt="aBlog/Posts" img="class:ablog-">COM_ABLOG_SUB_POSTS</menu>
+            <menu link="option=com_ablog&amp;act=comments" view="comments"
+                 alt="aBlog/Comments" img="class:ablog">COM_ABLOG_SUB_COMMENTS</menu>
+            <menu link="option=com_ablog&amp;act=comment_answers" view="comment_answers"
+                 alt="aBlog/CommentAnswers" img="class:ablog">COM_ABLOG_SUB_COMMENT_ANSWERS</menu>
+        </submenu>
+        <files folder="admin">
+            <folder>language</folder>
+            <folder>controllers</folder>
+            <folder>assets</folder>
+            <folder>helpers</folder>
+            <folder>models</folder>
+            <folder>sql</folder>
+            <folder>tables</folder>
+            <folder>views</folder>
+            <filename>access.xml</filename>
+            <filename>ablog.php</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+        </files>
+        <languages folder="admin">
+            <language tag="en-GB">language/en-GB/en-GB.com_ablog.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.com_ablog.sys.ini</language>
+            <language tag="de-DE">language/de-DE/de-DE.com_ablog.ini</language>
+            <language tag="de-DE">language/de-DE/de-DE.com_ablog.sys.ini</language>
+        </languages>
+</administration>
+</extension>
